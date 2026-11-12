@@ -22,7 +22,7 @@ It is written for two readers: people trying to get in, and people already in wh
 ## The paths
 
 ```mermaid
-flowchart TB
+flowchart LR
   F["Foundations<br/>networks · systems · scripting · security basics"]
   F --> D["Defend"]
   F --> A["Attack and assess"]
