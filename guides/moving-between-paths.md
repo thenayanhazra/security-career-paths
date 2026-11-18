@@ -10,6 +10,8 @@ Few careers stay on one path. Most people change direction at least once, and th
 |---|---|---|---|
 | Security operations | Incident response | Triage, log analysis, attacker techniques | Forensics, memory analysis, case handling |
 | Security operations | Detection engineering | Knowing which alerts are useful | Writing and testing detections as code |
+| Security operations | Vulnerability management | Knowing what attacks exploit; tooling | Prioritisation models, asset data, negotiating fix timelines |
+| Vulnerability management | Security engineering or cloud security | Breadth across systems; automation | Designing controls so the same flaws stop recurring |
 | Security operations | Threat intelligence | Attacker techniques; investigation | Structured analysis, writing for decision-makers |
 | Offensive security | Application security | Finding flaws | Fixing them: code review, secure design, working with engineers |
 | Offensive security | AI red teaming | Adversarial mindset, reporting | How models and agents work and fail |

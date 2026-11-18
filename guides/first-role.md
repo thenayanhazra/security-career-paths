@@ -12,8 +12,8 @@ Roles that lead naturally into security:
 
 | From | Towards |
 |---|---|
-| IT support or service desk | Security operations, IAM |
-| System or network administration | Security engineering, operations, OT |
+| IT support or service desk | Security operations, IAM, vulnerability management |
+| System or network administration | Security engineering, operations, vulnerability management, OT |
 | Software development | Application security, AI security engineering |
 | Cloud or DevOps engineering | Cloud security, security engineering |
 | Audit, compliance, legal | GRC, privacy, AI governance |

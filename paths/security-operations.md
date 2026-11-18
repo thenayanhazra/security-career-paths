@@ -56,4 +56,4 @@ Starting: Security+. Building: CySA+, Blue Team Level 1, Certified CyberDefender
 
 ## Neighbouring paths
 
-[Incident response and forensics](incident-response-forensics.md) · [Threat intelligence](threat-intelligence.md) · [Security engineering](security-engineering-architecture.md) · [Cloud security](cloud-security.md)
+[Incident response and forensics](incident-response-forensics.md) · [Vulnerability management](vulnerability-management.md) · [Threat intelligence](threat-intelligence.md) · [Security engineering](security-engineering-architecture.md) · [Cloud security](cloud-security.md)

@@ -1,0 +1,25 @@
+name: Report a correction
+description: Something is out of date, inaccurate or broken
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: e.g. guides/certifications.md
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source for the correction
+      description: A link to the issuer's or publisher's own site is best.
+    validations:
+      required: true

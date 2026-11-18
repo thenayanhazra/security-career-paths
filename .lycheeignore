@@ -1,0 +1,7 @@
+# Sites that return 403 to automated link checkers even though the pages load
+# in a browser. Each one was checked by hand; recheck when reviewing pages.
+^https://www\.iso\.org/
+^https://fidoalliance\.org/
+^https://www\.splunk\.com/
+# Issue forms redirect to sign-in for anonymous requests
+^https://github\.com/thenayanhazra/security-career-paths/issues/new
