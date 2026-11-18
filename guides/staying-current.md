@@ -38,7 +38,7 @@ Reading is not the goal. After a good report, try to reproduce one technique in 
 ## Conferences
 
 - [BSides](https://bsides.org/) events are local, cheap and welcoming. Go to one, and once you have something to say, submit a talk.
-- [DEF CON](https://defcon.org/) and [Black Hat](https://www.blackhat.com/) publish many past talks free online. Watching talks from previous years is one of the best free training resources there is.
+- [DEF CON](https://defcon.org/) and Black Hat ([talks on YouTube](https://www.youtube.com/@BlackHatOfficialYT)) publish many past talks free online. Watching talks from previous years is one of the best free training resources there is.
 - Each path has its own specialist events, from ICS security summits to privacy and AI governance conferences. Ask people already in the path which ones they rate.
 
 ## Avoiding overload
