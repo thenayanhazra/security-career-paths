@@ -1,0 +1,54 @@
+name: Suggest a resource
+description: Recommend a course, lab, tool, book or other resource for a path
+title: "Resource: "
+labels: ["resource"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: path
+    attributes:
+      label: Which path or guide does it belong to?
+      options:
+        - Security operations
+        - Vulnerability management
+        - Incident response and forensics
+        - Threat intelligence
+        - Offensive security
+        - Vulnerability research
+        - Application and product security
+        - Cloud security
+        - Security engineering and architecture
+        - Identity and access management
+        - OT and industrial security
+        - Governance, risk and compliance
+        - Privacy
+        - AI security engineering
+        - AI red teaming
+        - AI governance and assurance
+        - Security leadership
+        - Foundations, practice or another guide
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Cost
+      options:
+        - Free
+        - Free tier, with paid options
+        - Paid
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helped
+      description: One or two sentences. What did it teach you that the resources already listed do not?
+    validations:
+      required: true

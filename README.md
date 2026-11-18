@@ -18,6 +18,7 @@ It is written for two readers: people trying to get in, and people already in wh
 | Already working in security and want to change direction | The path you are considering, then [Moving between paths](guides/moving-between-paths.md) |
 | Weighing up certifications | [Certifications by path and level](guides/certifications.md) |
 | Looking for hands-on practice | [Practice labs and platforms](guides/practice.md) |
+| Wanting to keep up once you are in | [Staying current](guides/staying-current.md) |
 
 ## The paths
 
@@ -28,7 +29,9 @@ flowchart LR
   F --> A["Attack and assess"]
   F --> B["Build"]
   F --> G["Govern"]
+  F --> AI["AI security"]
   D --> SO["Security operations"]
+  D --> VM["Vulnerability management"]
   D --> IR["Incident response and forensics"]
   D --> TI["Threat intelligence"]
   A --> OS["Offensive security"]
@@ -40,15 +43,18 @@ flowchart LR
   B --> OT["OT and industrial security"]
   G --> GRC["Governance, risk and compliance"]
   G --> PR["Privacy"]
-  B --> AISE["AI security engineering"]
-  A --> AIRT["AI red teaming"]
-  G --> AIG["AI governance and assurance"]
-  SO & OS & SE & GRC --> L["Security leadership"]
+  AI --> AISE["AI security engineering"]
+  AI --> AIRT["AI red teaming"]
+  AI --> AIG["AI governance and assurance"]
+  D & A & B & G & AI -.-> L["Security leadership<br/>(from any path, after experience)"]
 ```
+
+The AI security paths draw on the others: AI security engineering builds on application and cloud security, AI red teaming on offensive security, and AI governance on GRC and privacy.
 
 | Family | Path | In one line | Typical entry |
 |---|---|---|---|
 | Defend | [Security operations](paths/security-operations.md) | Watch, detect and respond to threats as they happen | Beginner-friendly |
+| Defend | [Vulnerability management](paths/vulnerability-management.md) | Find known weaknesses at scale, prioritise them and get them fixed | Beginner-friendly via IT operations |
 | Defend | [Incident response and digital forensics](paths/incident-response-forensics.md) | Work out what happened, contain it and recover | Usually after 1–3 years in operations or IT |
 | Defend | [Threat intelligence](paths/threat-intelligence.md) | Understand adversaries and turn that into decisions | Varies; analysts from many backgrounds |
 | Attack and assess | [Offensive security](paths/offensive-security.md) | Test systems the way attackers would, with permission | Possible to enter directly; most come from IT or development |
@@ -82,7 +88,7 @@ Links are checked automatically every week, so broken ones get caught and fixed.
 
 ## Contributing
 
-Suggestions are welcome, especially resources you found genuinely useful when starting out. Open an issue with the link, the path it belongs to and a sentence on why it helped.
+Suggestions are welcome, especially resources you found genuinely useful when starting out, and corrections when something has gone out of date. [Suggest a resource](https://github.com/thenayanhazra/security-career-paths/issues/new?template=resource.yml), [report a correction](https://github.com/thenayanhazra/security-career-paths/issues/new?template=correction.yml), or read [CONTRIBUTING.md](CONTRIBUTING.md) for how pages are structured and what makes a good addition.
 
 ## License
 

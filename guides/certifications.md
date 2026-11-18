@@ -9,7 +9,7 @@ Levels below are relative. "Starting" means achievable without security experien
 ## What changed in 2026
 
 - **ISC2 Certified in Cybersecurity (CC) is no longer free.** ISC2 closed its One Million Certified in Cybersecurity programme to new enrolments on 20 May 2026. Exam codes already issued under it can be used until 31 December 2026.
-- **CompTIA Security+ is changing version.** SY0-701 is the current exam; its successor, SY0-801, is due around the end of 2026 and adds AI and LLM content. Both lead to the same Security+ certification, so study for whichever version you can sit.
+- **CompTIA Security+ has a new version.** SY0-801 (V8) launched on 17 November 2026 and adds AI and LLM content. SY0-701 remains available in English until 11 June 2027. Both lead to the same Security+ certification, so study for whichever version your materials cover, and check that your training provider has updated before you buy V8 material.
 - **AI security certifications arrived in number.** CompTIA launched SecAI+ in February 2026. GIAC released AI Platform Security (GAIPS) and AI Security Automation Engineer (GASAE). ISACA extended its AI series (AAISM, AAIA, AAIR). ISC2 announced an AI security certification in July 2026 with a pilot exam expected late in the year.
 
 ## Starting out (any path)
@@ -26,6 +26,7 @@ Levels below are relative. "Starting" means achievable without security experien
 | Path | Starting | Building | Advanced |
 |---|---|---|---|
 | [Security operations](../paths/security-operations.md) | Security+ | CySA+ (CompTIA); Blue Team Level 1 (Security Blue Team); Certified CyberDefender (CyberDefenders); Microsoft SC-200 | GIAC GCIA, GCDA |
+| [Vulnerability management](../paths/vulnerability-management.md) | Security+ | CySA+; vendor training from Tenable or Qualys | GIAC GEVA; CISSP for programme leads |
 | [Incident response and forensics](../paths/incident-response-forensics.md) | Security+ | GIAC GCIH; CySA+ | GIAC GCFA, GCFE, GNFA, GREM |
 | [Threat intelligence](../paths/threat-intelligence.md) | Security+ | GIAC GCTI | GIAC GCTI plus a public body of analysis |
 | [Offensive security](../paths/offensive-security.md) | eJPT (INE); PenTest+ (CompTIA) | PNPT (TCM Security); OSCP (OffSec); Burp Suite Certified Practitioner (PortSwigger); CRTO (Zero-Point Security) | OSEP, OSWE (OffSec); GIAC GPEN, GXPN |

@@ -13,6 +13,7 @@ Most people do not choose a security career so much as drift into the first one 
 | Making things work, automating, designing systems | Security engineering, cloud security, application security, IAM, AI security engineering |
 | Finding the flaw nobody else saw | Offensive security, vulnerability research, AI red teaming |
 | Spotting the signal in noise, staying calm under pressure | Security operations, incident response, threat intelligence |
+| Bringing order to a large, messy problem and seeing it through | Vulnerability management, IAM, GRC |
 | Weighing trade-offs, writing clearly, persuading people | Governance, risk and compliance; privacy; AI governance; leadership |
 
 **2. How do you feel about on-call and interruptions?**
@@ -25,7 +26,7 @@ Security operations and incident response run on shifts and emergencies. Some pe
 |---|---|
 | Daily, seriously | Application security, vulnerability research, AI security engineering, detection engineering |
 | Regularly, for automation | Cloud security, security engineering, offensive security, threat intelligence |
-| Occasionally, scripts and queries | Security operations, IAM, incident response |
+| Occasionally, scripts and queries | Security operations, vulnerability management, IAM, incident response |
 | Rarely | GRC, privacy, AI governance, leadership |
 
 Every path benefits from being able to read code and write a short script. Not every path needs you to be a software engineer.
