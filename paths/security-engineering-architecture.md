@@ -46,8 +46,10 @@ Security engineering is usually a second or third role, after system administrat
 
 ## Practise
 
-- Harden a server to a CIS Benchmark and automate it
-- Design the security architecture for a fictional company of 500 people, write it up, and ask experienced people to critique it
+- Harden a Linux server against a CIS Benchmark, automate both the configuration and compliance checks with a script or Ansible, and verify it passes
+- Design the security architecture for a fictional 500-person company (identity, network segmentation, logging, secrets management and CI/CD), document the trade-offs explicitly, and ask experienced practitioners to critique it
+- Replace static credentials in a lab application with short-lived tokens or a local secrets manager and centralise its audit logs
+- Take an existing system diagram and write a one-page architecture review noting trust boundaries, single points of failure and three pragmatic mitigations
 
 ## Certifications
 
@@ -55,4 +57,4 @@ Building: CySA+ and cloud security certifications. Advanced: CISSP, CompTIA Secu
 
 ## Neighbouring paths
 
-[Cloud security](cloud-security.md) · [Identity and access management](identity-access-management.md) · [Security operations](security-operations.md) · [Security leadership](security-leadership.md)
+[Cloud security](cloud-security.md) · [Identity and access management](identity-access-management.md) · [Application security](application-security.md) · [Security operations](security-operations.md) · [Vulnerability management](vulnerability-management.md) · [OT and industrial security](ot-industrial-security.md) · [Security leadership](security-leadership.md)

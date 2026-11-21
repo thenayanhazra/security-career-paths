@@ -10,7 +10,7 @@ Most people do not choose a security career so much as drift into the first one 
 
 | If you enjoy... | Look at |
 |---|---|
-| Making things work, automating, designing systems | Security engineering, cloud security, application security, IAM, AI security engineering |
+| Making things work, automating, designing systems | Security engineering, cloud security, application security, IAM, OT and industrial security, AI security engineering |
 | Finding the flaw nobody else saw | Offensive security, vulnerability research, AI red teaming |
 | Spotting the signal in noise, staying calm under pressure | Security operations, incident response, threat intelligence |
 | Bringing order to a large, messy problem and seeing it through | Vulnerability management, IAM, GRC |
@@ -26,14 +26,14 @@ Security operations and incident response run on shifts and emergencies. Some pe
 |---|---|
 | Daily, seriously | Application security, vulnerability research, AI security engineering, detection engineering |
 | Regularly, for automation | Cloud security, security engineering, offensive security, threat intelligence |
-| Occasionally, scripts and queries | Security operations, vulnerability management, IAM, incident response |
+| Occasionally, scripts and queries | Security operations, vulnerability management, IAM, incident response, OT and industrial security |
 | Rarely | GRC, privacy, AI governance, leadership |
 
 Every path benefits from being able to read code and write a short script. Not every path needs you to be a software engineer.
 
 **4. What do you already know?**
 
-Your previous work is the shortest route in. Developers move into application security. System administrators move into security engineering or operations. Auditors and lawyers move into GRC and privacy. Data scientists move into AI security. Network engineers move into OT or security architecture. Start from what you have.
+Your previous work is the shortest route in. Developers move into application security. Systems programmers move into vulnerability research. System administrators move into security engineering or operations. Auditors and lawyers move into GRC and privacy. Data scientists move into AI security. Network and control engineers move into OT or security architecture. Start from what you have.
 
 ## Common misconceptions
 

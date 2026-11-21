@@ -46,8 +46,10 @@ IT administrators and service desk staff move into IAM naturally, because they a
 
 ## Practise
 
-- Set up a free developer tenant with an identity provider, connect a sample application with OpenID Connect, and enforce MFA
-- Build an automated joiner-mover-leaver flow with a script and an API
+- Run [Keycloak](https://github.com/keycloak/keycloak) locally in a container, connect a sample application with OpenID Connect, and enforce passkey or TOTP MFA
+- Build an automated joiner-mover-leaver script against Keycloak's Admin REST API (or a free developer tenant) that assigns roles on creation and revokes active sessions on departure
+- Write a short access-review script that flags dormant accounts, stale API keys and over-privileged service accounts from exported JSON or CSV data
+- Trace an OAuth 2.0 authorisation code flow with PKCE in browser developer tools, and document what each token contains and how the application validates it
 
 ## Certifications
 

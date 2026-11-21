@@ -47,9 +47,11 @@ The most common route is from cloud, DevOps or platform engineering: you already
 
 ## Practise
 
-- [flaws.cloud](http://flaws.cloud/) and [flaws2.cloud](http://flaws2.cloud/)
+- [flaws.cloud](http://flaws.cloud/) and [flaws2.cloud](http://flaws2.cloud/) for common AWS mistakes from both attacker and defender sides
 - [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) in your own AWS account, with a budget alert set first
-- Build a multi-account AWS or Azure landing zone with guardrails in Terraform, and publish it
+- [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) locally to practise finding and fixing common container and cluster misconfigurations
+- [Stratus Red Team](https://github.com/DataDog/stratus-red-team) to detonate individual cloud attack techniques across AWS, Azure, Google Cloud or Kubernetes in a disposable test account, then verify whether your audit logs catch them
+- Build a multi-account AWS or Azure landing zone in Terraform with identity boundaries, centralised logging and policy-as-code guardrails, and publish it
 
 ## Certifications
 
@@ -57,4 +59,4 @@ Starting: a cloud provider's foundational certification. Building: CCSK, AWS Cer
 
 ## Neighbouring paths
 
-[Security engineering](security-engineering-architecture.md) · [Identity and access management](identity-access-management.md) · [Application security](application-security.md) · [AI security engineering](ai-security-engineering.md)
+[Security engineering](security-engineering-architecture.md) · [Identity and access management](identity-access-management.md) · [Application security](application-security.md) · [Security operations](security-operations.md) · [Vulnerability management](vulnerability-management.md) · [AI security engineering](ai-security-engineering.md)
