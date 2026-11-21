@@ -56,3 +56,7 @@ Levels below are relative. "Starting" means achievable without security experien
 - Free and low-cost training exists for almost every exam. Expensive bootcamps are rarely necessary.
 - Certifications expire or need continuing education credits. Factor in renewal fees before collecting many.
 - Government and defence roles sometimes require specific certifications. In the United States, check the DoD 8140 qualification matrix for the role you want.
+
+---
+
+[← Overview](../README.md) · [All paths](../README.md#the-paths)

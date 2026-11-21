@@ -59,3 +59,7 @@ CISM and CISSP are the most widely requested. CCISO is aimed specifically at exe
 ## Neighbouring paths
 
 [Governance, risk and compliance](governance-risk-compliance.md) · [Security engineering and architecture](security-engineering-architecture.md) · [AI governance and assurance](ai-governance-assurance.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

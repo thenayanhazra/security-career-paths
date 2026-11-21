@@ -54,8 +54,12 @@ Software developers make the move most often, and are well placed to: they under
 
 ## Certifications
 
-Building: Burp Suite Certified Practitioner, GIAC GWEB, Certified DevSecOps Professional. Advanced: CSSLP, OSWE. See [Certifications](../guides/certifications.md).
+Starting: Security+. Building: Burp Suite Certified Practitioner, GIAC GWEB, Certified DevSecOps Professional. Advanced: CSSLP, OSWE. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
 [Offensive security](offensive-security.md) · [Vulnerability research](vulnerability-research.md) · [Cloud security](cloud-security.md) · [AI security engineering](ai-security-engineering.md) · [Security engineering](security-engineering-architecture.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

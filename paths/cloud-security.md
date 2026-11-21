@@ -60,3 +60,7 @@ Starting: a cloud provider's foundational certification. Building: CCSK, AWS Cer
 ## Neighbouring paths
 
 [Security engineering](security-engineering-architecture.md) · [Identity and access management](identity-access-management.md) · [Application security](application-security.md) · [Security operations](security-operations.md) · [Vulnerability management](vulnerability-management.md) · [AI security engineering](ai-security-engineering.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

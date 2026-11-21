@@ -44,13 +44,19 @@ The path draws from unusual places: SOC analysts, journalists, political scienti
 
 ## Practise
 
-- Pick a threat group, read the public reporting about it and write a two-page assessment of its relevance to a sector of your choice
-- Map a public intrusion report to ATT&CK techniques, then write detection ideas for each one
+- Pick a threat group, read the public reporting about it and write a two-page assessment of its relevance to a sector of your choice, stating confidence levels and key assumptions
+- Map a public intrusion report from [The DFIR Report](https://thedfirreport.com/) to [MITRE ATT&CK](https://attack.mitre.org/) techniques in [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/), then write detection ideas for the highest-priority gaps
+- Run [MISP](https://www.misp-project.org/) locally, import a public feed of indicators, enrich one event and export a STIX bundle
+- Draft a one-page bottom-line-up-front (BLUF) briefing for an executive on a recent campaign, ending with two concrete decisions to take
 
 ## Certifications
 
-Building and advanced: GIAC GCTI. A public portfolio of analysis carries as much weight. See [Certifications](../guides/certifications.md).
+Starting: Security+. Building and advanced: GIAC GCTI. A public portfolio of analysis carries as much weight. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
 [Security operations](security-operations.md) · [Incident response](incident-response-forensics.md) · [Offensive security](offensive-security.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

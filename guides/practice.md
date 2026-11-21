@@ -23,6 +23,7 @@ Hands-on practice is what turns knowledge into skill, and what gives you somethi
 | [LetsDefend](https://letsdefend.io/) | Simulated SOC analyst work: alerts, triage, cases | Free tier; paid |
 | [Splunk Boss of the SOC datasets](https://github.com/splunk/botsv3) | Hunting through a large, realistic dataset in your own Splunk instance | Free |
 | [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Running small attack simulations to test your detections | Free |
+| [Velociraptor](https://docs.velociraptor.app/) | Collecting endpoint forensic artefacts and hunting across lab hosts | Free |
 
 ## Web and application security
 
@@ -55,14 +56,19 @@ Hands-on practice is what turns knowledge into skill, and what gives you somethi
 
 | Platform | Path | Best for | Cost |
 |---|---|---|---|
-| [Greenbone Community Edition](https://greenbone.github.io/docs/latest/) | Vulnerability management | Scanning a home lab and practising risk-based prioritisation | Free |
-| [Keycloak](https://github.com/keycloak/keycloak) | Identity and access management | Running an identity provider locally to practise OIDC, SAML, MFA and API automation | Free |
-| [OpenPLC](https://github.com/Autonomy-Logic/openplc-runtime) and [ICS-pcap](https://github.com/automayt/ICS-pcap) | OT and industrial security | Simulating a PLC locally and inspecting industrial protocol captures | Free |
-| [pwn.college](https://pwn.college/) | Vulnerability research | Structured binary exploitation and low-level systems labs | Free |
-| [CNIL PIA](https://github.com/LINCnil/pia) | Privacy | Running a structured data protection impact assessment | Free |
+| [Greenbone Community Edition](https://greenbone.github.io/docs/latest/) | [Vulnerability management](../paths/vulnerability-management.md) | Scanning a home lab and practising risk-based prioritisation | Free |
+| [MISP](https://www.misp-project.org/) and [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) | [Threat intelligence](../paths/threat-intelligence.md) | Managing indicator feeds, enriching events and mapping adversary techniques | Free |
+| [Keycloak](https://github.com/keycloak/keycloak) | [Identity and access management](../paths/identity-access-management.md) | Running an identity provider locally to practise OIDC, SAML, MFA and API automation | Free |
+| [OpenPLC](https://github.com/Autonomy-Logic/openplc-runtime) and [ICS-pcap](https://github.com/automayt/ICS-pcap) | [OT and industrial security](../paths/ot-industrial-security.md) | Simulating a PLC locally and inspecting industrial protocol captures | Free |
+| [pwn.college](https://pwn.college/) | [Vulnerability research](../paths/vulnerability-research.md) | Structured binary exploitation and low-level systems labs | Free |
+| [CNIL PIA](https://github.com/LINCnil/pia) | [Privacy](../paths/privacy.md) | Running a structured data protection impact assessment | Free |
 
 ## Making practice count
 
 - **Write it up.** A short write-up of each machine or investigation shows how you think. Do not publish solutions to active challenges where the platform forbids it.
 - **Go past the flag.** After solving a challenge, ask how you would have detected it, or how you would fix it. That second half is what most jobs pay for.
 - **Mix sides.** Attackers who understand detection and defenders who understand attacks are both more valuable.
+
+---
+
+[← Overview](../README.md) · [All paths](../README.md#the-paths)

@@ -8,20 +8,24 @@ Few careers stay on one path. Most people change direction at least once, and th
 
 | From | To | What carries over | What to add |
 |---|---|---|---|
-| Security operations | Incident response | Triage, log analysis, attacker techniques | Forensics, memory analysis, case handling |
-| Security operations | Detection engineering | Knowing which alerts are useful | Writing and testing detections as code |
-| Security operations | Vulnerability management | Knowing what attacks exploit; tooling | Prioritisation models, asset data, negotiating fix timelines |
-| Vulnerability management | Security engineering or cloud security | Breadth across systems; automation | Designing controls so the same flaws stop recurring |
-| Security operations | Threat intelligence | Attacker techniques; investigation | Structured analysis, writing for decision-makers |
-| Offensive security | Application security | Finding flaws | Fixing them: code review, secure design, working with engineers |
-| Offensive security | AI red teaming | Adversarial mindset, reporting | How models and agents work and fail |
-| Software development | Application security | Code, architecture, engineering culture | Threat modelling, vulnerability classes, security testing |
-| Cloud or DevOps engineering | Cloud security | Infrastructure as code, cloud services | Identity and policy design, cloud attack paths, posture management |
-| Any technical path | Security architecture | Depth in one area | Breadth across many, and the ability to make trade-offs explicit |
-| Application or cloud security | AI security engineering | Secure design, threat modelling | Model and agent behaviour, prompt injection, AI supply chain |
-| GRC | AI governance | Frameworks, control design, audit | AI-specific regulation and standards, enough technical depth to question engineers |
-| Audit or GRC | Privacy | Control testing, regulation | Data protection law, privacy engineering basics |
-| Any path | Leadership | Credibility from doing the work | Managing people, budgets, risk communication |
+| [Security operations](../paths/security-operations.md) | [Incident response](../paths/incident-response-forensics.md) | Triage, log analysis, attacker techniques | Forensics, memory analysis, case handling |
+| [Security operations](../paths/security-operations.md) | Detection engineering ([security operations](../paths/security-operations.md)) | Knowing which alerts are useful | Writing and testing detections as code |
+| [Security operations](../paths/security-operations.md) | [Vulnerability management](../paths/vulnerability-management.md) | Knowing what attacks exploit; tooling | Prioritisation models, asset data, negotiating fix timelines |
+| [Vulnerability management](../paths/vulnerability-management.md) | [Security engineering](../paths/security-engineering-architecture.md) or [cloud security](../paths/cloud-security.md) | Breadth across systems; automation | Designing controls so the same flaws stop recurring |
+| [Security operations](../paths/security-operations.md) | [Threat intelligence](../paths/threat-intelligence.md) | Attacker techniques; investigation | Structured analysis, writing for decision-makers |
+| IT administration or [security operations](../paths/security-operations.md) | [Identity and access management](../paths/identity-access-management.md) | Directory and account experience; operational habits | Identity protocols (SAML, OIDC, OAuth), lifecycle automation, non-human identities |
+| [Identity and access management](../paths/identity-access-management.md) | [Cloud security](../paths/cloud-security.md) | Identity, federation and least-privilege design | Infrastructure as code, cloud networking, posture management |
+| [Offensive security](../paths/offensive-security.md) | [Application security](../paths/application-security.md) | Finding flaws | Fixing them: code review, secure design, working with engineers |
+| [Offensive security](../paths/offensive-security.md) or systems development | [Vulnerability research](../paths/vulnerability-research.md) | Attacker mindset, debugging or deep C/C++ | Reverse engineering, fuzzing, exploit development and coordinated disclosure |
+| [Offensive security](../paths/offensive-security.md) | [AI red teaming](../paths/ai-red-teaming.md) | Adversarial mindset, reporting | How models and agents work and fail |
+| Software development | [Application security](../paths/application-security.md) | Code, architecture, engineering culture | Threat modelling, vulnerability classes, security testing |
+| Cloud or DevOps engineering | [Cloud security](../paths/cloud-security.md) | Infrastructure as code, cloud services | Identity and policy design, cloud attack paths, posture management |
+| Network or control engineering | [OT and industrial security](../paths/ot-industrial-security.md) | Networking, industrial processes and safety culture | Industrial protocol monitoring, ISA/IEC 62443 segmentation, passive detection |
+| Any technical path | [Security architecture](../paths/security-engineering-architecture.md) | Depth in one area | Breadth across many, and the ability to make trade-offs explicit |
+| [Application](../paths/application-security.md) or [cloud security](../paths/cloud-security.md) | [AI security engineering](../paths/ai-security-engineering.md) | Secure design, threat modelling | Model and agent behaviour, prompt injection, AI supply chain |
+| [GRC](../paths/governance-risk-compliance.md) | [AI governance](../paths/ai-governance-assurance.md) | Frameworks, control design, audit | AI-specific regulation and standards, enough technical depth to question engineers |
+| Audit or [GRC](../paths/governance-risk-compliance.md) | [Privacy](../paths/privacy.md) | Control testing, regulation | Data protection law, privacy engineering basics |
+| Any path | [Leadership](../paths/security-leadership.md) | Credibility from doing the work | Managing people, budgets, risk communication |
 
 ## How to make the move
 
@@ -33,3 +37,7 @@ Few careers stay on one path. Most people change direction at least once, and th
 ## When to specialise and when to stay broad
 
 Early in a career, breadth helps: you learn how the parts fit together. After a few years, depth gets you hired, because teams want someone who is the best at something. Later, breadth matters again for architecture and leadership. The most effective senior people are "T-shaped": deep in one area, conversant in most.
+
+---
+
+[← Overview](../README.md) · [All paths](../README.md#the-paths)

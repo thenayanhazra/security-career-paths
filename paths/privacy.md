@@ -57,3 +57,7 @@ Starting: CIPP/E or CIPP/US. Building: CIPM, CIPT. Advanced: CDPSE, FIP. See [Ce
 ## Neighbouring paths
 
 [Governance, risk and compliance](governance-risk-compliance.md) · [AI governance and assurance](ai-governance-assurance.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

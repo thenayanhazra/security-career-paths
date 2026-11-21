@@ -58,3 +58,7 @@ Building: IAPP AIGP. Advanced: ISACA AAISM (for security managers holding CISM o
 ## Neighbouring paths
 
 [Governance, risk and compliance](governance-risk-compliance.md) · [Privacy](privacy.md) · [Security leadership](security-leadership.md) · [AI security engineering](ai-security-engineering.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)
