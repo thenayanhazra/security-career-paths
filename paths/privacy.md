@@ -45,8 +45,10 @@ Lawyers, compliance professionals and GRC analysts move into privacy most often.
 
 ## Practise
 
-- Write a data protection impact assessment for a real or fictional app
-- Build a data map for a small system and identify where personal data could be minimised
+- Complete a data protection impact assessment for a fictional mobile or AI-assisted app using [CNIL's open-source PIA tool](https://github.com/LINCnil/pia) or the [UK ICO's DPIA guidance and template](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/data-protection-impact-assessments-dpias/)
+- Build a record of processing activities (data map) for a small web application, tracing where personal data enters, where it is stored, which third parties receive it and where collection could be minimised
+- Draft a 72-hour personal data breach assessment and notification checklist showing when regulators and affected individuals must be informed
+- Audit a public privacy notice from a consumer service against GDPR Articles 13 and 14, noting what is transparent and what is missing
 
 ## Certifications
 

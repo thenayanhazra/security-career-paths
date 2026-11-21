@@ -13,7 +13,7 @@ Every security path rests on the same base: how computers, networks and software
 | **Scripting** | Enough Python or PowerShell to parse a log file, call an API and automate a repetitive task | [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) |
 | **Web and APIs** | How a request becomes a response; cookies and sessions; authentication; REST and JSON | [MDN Web Docs: HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) |
 | **Cloud** | What IaaS, PaaS and SaaS mean; identities and permissions in one major cloud; the shared responsibility model | [AWS Skill Builder](https://skillbuilder.aws/), [Microsoft Learn](https://learn.microsoft.com/en-us/training/) |
-| **Security concepts** | Confidentiality, integrity and availability; authentication versus authorisation; least privilege; defence in depth; common attack types; risk | [Professor Messer's Security+ course](https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/) |
+| **Security concepts** | Confidentiality, integrity and availability; authentication versus authorisation; least privilege; defence in depth; common attack types; risk | [Professor Messer's Security+ course](https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/) (SY0-701, available until June 2027; see [Certifications](certifications.md) for SY0-801) |
 | **How attacks unfold** | The stages of an intrusion and the common techniques at each | [MITRE ATT&CK](https://attack.mitre.org/) |
 
 ## A sensible order

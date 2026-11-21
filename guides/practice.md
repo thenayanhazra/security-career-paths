@@ -38,6 +38,8 @@ Hands-on practice is what turns knowledge into skill, and what gives you somethi
 |---|---|---|
 | [flaws.cloud](http://flaws.cloud/) and [flaws2.cloud](http://flaws2.cloud/) | Learning common AWS mistakes, from attacker and defender sides | Free |
 | [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) | Deploying vulnerable AWS scenarios in your own account | Free; you pay for AWS usage |
+| [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) | Finding and fixing common Kubernetes and container misconfigurations locally | Free |
+| [Stratus Red Team](https://github.com/DataDog/stratus-red-team) | Detonating cloud attack techniques across AWS, Azure, Google Cloud, Kubernetes and Entra ID to test detections | Free; you pay for cloud usage |
 
 ## AI security
 
@@ -48,6 +50,16 @@ Hands-on practice is what turns knowledge into skill, and what gives you somethi
 | [Damn Vulnerable LLM Agent](https://github.com/ReversecLabs/damn-vulnerable-llm-agent) | Attacking an intentionally vulnerable agent | Free |
 | [LLM Prompt Injection Fuzzer](https://github.com/thenayanhazra/llm-prompt-injection-fuzzer) | Measuring how often a model or system prompt can be injected; includes a simulated target that needs no API key | Free |
 | [MCP Adversarial Harness](https://github.com/thenayanhazra/mcp-adversarial-harness) | Testing MCP tool servers for tool poisoning and data exfiltration, with a bundled vulnerable server | Free |
+
+## Specialist paths
+
+| Platform | Path | Best for | Cost |
+|---|---|---|---|
+| [Greenbone Community Edition](https://greenbone.github.io/docs/latest/) | Vulnerability management | Scanning a home lab and practising risk-based prioritisation | Free |
+| [Keycloak](https://github.com/keycloak/keycloak) | Identity and access management | Running an identity provider locally to practise OIDC, SAML, MFA and API automation | Free |
+| [OpenPLC](https://github.com/Autonomy-Logic/openplc-runtime) and [ICS-pcap](https://github.com/automayt/ICS-pcap) | OT and industrial security | Simulating a PLC locally and inspecting industrial protocol captures | Free |
+| [pwn.college](https://pwn.college/) | Vulnerability research | Structured binary exploitation and low-level systems labs | Free |
+| [CNIL PIA](https://github.com/LINCnil/pia) | Privacy | Running a structured data protection impact assessment | Free |
 
 ## Making practice count
 

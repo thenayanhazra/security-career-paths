@@ -23,7 +23,7 @@ Operational technology (OT) and industrial control systems (ICS) follow differen
 | Mid | OT security engineer, ICS security consultant | Design segmentation; run assessments; respond to incidents |
 | Senior | OT security architect, head of OT security | Set strategy across sites; manage regulatory obligations |
 
-**Framework names:** NICE *Operational Technology (OT) Cybersecurity Engineering*, a recent addition to the framework; ECSF *Cybersecurity Implementer*, *Cybersecurity Architect*.
+**Framework names:** NICE *Operational Technology (OT) Cybersecurity Engineering*, added in NICE Components v2.0.0 in March 2025; ECSF *Cybersecurity Implementer*, *Cybersecurity Architect*.
 
 ## Skills that matter
 
@@ -44,8 +44,10 @@ From two directions: control and automation engineers who learn security, and ne
 
 ## Practise
 
-- Build a small lab with a simulated PLC and an HMI using open-source tools, then monitor its traffic
-- Analyse public ICS packet captures
+- Run [OpenPLC](https://github.com/Autonomy-Logic/openplc-runtime) locally in a container, capture its Modbus TCP traffic in Wireshark, and observe how unauthenticated industrial commands look on the wire
+- Analyse real industrial protocol captures (Modbus, DNP3, S7 and BACnet) from the [ICS-pcap](https://github.com/automayt/ICS-pcap) collection to distinguish routine polling from write commands
+- Diagram an IT/OT network segmentation plan for a fictional plant using ISA/IEC 62443 zones and conduits, including audited remote access for maintenance vendors
+- Map a published ICS incident to [MITRE ATT&CK for ICS](https://attack.mitre.org/matrices/ics/) and note which detections would work passively without active scanning
 
 ## Certifications
 

@@ -58,4 +58,4 @@ Building: Burp Suite Certified Practitioner, GIAC GWEB, Certified DevSecOps Prof
 
 ## Neighbouring paths
 
-[Offensive security](offensive-security.md) · [Cloud security](cloud-security.md) · [AI security engineering](ai-security-engineering.md) · [Security engineering](security-engineering-architecture.md)
+[Offensive security](offensive-security.md) · [Vulnerability research](vulnerability-research.md) · [Cloud security](cloud-security.md) · [AI security engineering](ai-security-engineering.md) · [Security engineering](security-engineering-architecture.md)
