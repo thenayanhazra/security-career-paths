@@ -51,8 +51,12 @@ From two directions: control and automation engineers who learn security, and ne
 
 ## Certifications
 
-Building: GIAC GICSP, ISA/IEC 62443 certificates. Advanced: GIAC GRID. See [Certifications](../guides/certifications.md).
+Starting: Security+. Building: GIAC GICSP, ISA/IEC 62443 certificates. Advanced: GIAC GRID. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
 [Security engineering](security-engineering-architecture.md) · [Security operations](security-operations.md) · [Incident response](incident-response-forensics.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

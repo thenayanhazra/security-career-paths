@@ -46,3 +46,7 @@ Reading is not the goal. After a good report, try to reproduce one technique in 
 - Pick two or three sources and drop the rest. Ten sources skimmed beat thirty unread.
 - Favour primary sources such as vendor advisories, original research and incident reports over commentary about them.
 - Be wary of anything that makes a threat sound new and terrifying without saying what to do about it.
+
+---
+
+[← Overview](../README.md) · [All paths](../README.md#the-paths)

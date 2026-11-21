@@ -60,3 +60,7 @@ There is no established certification for this path yet. CompTIA SecAI+ covers t
 ## Neighbouring paths
 
 [Offensive security](offensive-security.md) · [AI security engineering](ai-security-engineering.md) · [Vulnerability research](vulnerability-research.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

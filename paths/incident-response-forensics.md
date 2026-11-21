@@ -47,12 +47,18 @@ Most responders spend a year or more in a SOC or in system administration first.
 ## Practise
 
 - [CyberDefenders](https://cyberdefenders.org/) and [Blue Team Labs Online](https://blueteamlabs.online/): forensic challenges with real artefacts
-- Capture memory and disk images from your own lab machines after running attacks against them, then investigate
+- Capture a memory image from a lab machine after running a simulated attack, then use [Volatility](https://github.com/volatilityfoundation/volatility3) to list running processes, network connections and injected code
+- Collect Windows forensic artefacts from a lab host with [Velociraptor](https://docs.velociraptor.app/) and reconstruct an end-to-end attack timeline
+- Draft an incident response playbook for a realistic scenario (such as ransomware or compromised cloud credentials) aligned to [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final), then walk through it as a tabletop exercise
 
 ## Certifications
 
-Building: GIAC GCIH, CySA+. Advanced: GIAC GCFA, GCFE, GNFA, and GREM for malware analysis. See [Certifications](../guides/certifications.md).
+Starting: Security+. Building: GIAC GCIH, CySA+. Advanced: GIAC GCFA, GCFE, GNFA, and GREM for malware analysis. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
 [Security operations](security-operations.md) · [Threat intelligence](threat-intelligence.md) · [Offensive security](offensive-security.md) · [OT and industrial security](ot-industrial-security.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

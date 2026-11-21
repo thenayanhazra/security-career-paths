@@ -47,6 +47,6 @@ When you add a path, also update the README table and diagram, the [certificatio
 - No hype. If a path is hard to enter, say so.
 - When you change a page, update its *Last reviewed* line.
 
-## Links
+## Checks and links
 
-Links are checked weekly and on every pull request. A few sites block automated checkers even though the page works; those are listed in [`.lycheeignore`](.lycheeignore). Add a site there only after confirming the page loads in a browser.
+Structure, local links, anchors and reciprocal neighbouring-path links are checked automatically on every pull request with `python3 scripts/validate.py`. External links are checked weekly and on every pull request. A few sites block automated checkers even though the page works; those are listed in [`.lycheeignore`](.lycheeignore). Add a site there only after confirming the page loads in a browser.

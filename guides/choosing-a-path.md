@@ -10,11 +10,11 @@ Most people do not choose a security career so much as drift into the first one 
 
 | If you enjoy... | Look at |
 |---|---|
-| Making things work, automating, designing systems | Security engineering, cloud security, application security, IAM, OT and industrial security, AI security engineering |
-| Finding the flaw nobody else saw | Offensive security, vulnerability research, AI red teaming |
-| Spotting the signal in noise, staying calm under pressure | Security operations, incident response, threat intelligence |
-| Bringing order to a large, messy problem and seeing it through | Vulnerability management, IAM, GRC |
-| Weighing trade-offs, writing clearly, persuading people | Governance, risk and compliance; privacy; AI governance; leadership |
+| Making things work, automating, designing systems | [Security engineering](../paths/security-engineering-architecture.md), [cloud security](../paths/cloud-security.md), [application security](../paths/application-security.md), [IAM](../paths/identity-access-management.md), [OT and industrial security](../paths/ot-industrial-security.md), [AI security engineering](../paths/ai-security-engineering.md) |
+| Finding the flaw nobody else saw | [Offensive security](../paths/offensive-security.md), [vulnerability research](../paths/vulnerability-research.md), [AI red teaming](../paths/ai-red-teaming.md) |
+| Spotting the signal in noise, staying calm under pressure | [Security operations](../paths/security-operations.md), [incident response](../paths/incident-response-forensics.md), [threat intelligence](../paths/threat-intelligence.md) |
+| Bringing order to a large, messy problem and seeing it through | [Vulnerability management](../paths/vulnerability-management.md), [IAM](../paths/identity-access-management.md), [GRC](../paths/governance-risk-compliance.md) |
+| Weighing trade-offs, writing clearly, persuading people | [Governance, risk and compliance](../paths/governance-risk-compliance.md); [privacy](../paths/privacy.md); [AI governance](../paths/ai-governance-assurance.md); [leadership](../paths/security-leadership.md) |
 
 **2. How do you feel about on-call and interruptions?**
 
@@ -24,10 +24,10 @@ Security operations and incident response run on shifts and emergencies. Some pe
 
 | Coding | Paths |
 |---|---|
-| Daily, seriously | Application security, vulnerability research, AI security engineering, detection engineering |
-| Regularly, for automation | Cloud security, security engineering, offensive security, threat intelligence |
-| Occasionally, scripts and queries | Security operations, vulnerability management, IAM, incident response, OT and industrial security |
-| Rarely | GRC, privacy, AI governance, leadership |
+| Daily, seriously | [Application security](../paths/application-security.md), [vulnerability research](../paths/vulnerability-research.md), [AI security engineering](../paths/ai-security-engineering.md), detection engineering ([security operations](../paths/security-operations.md)) |
+| Regularly, for automation | [Cloud security](../paths/cloud-security.md), [security engineering](../paths/security-engineering-architecture.md), [offensive security](../paths/offensive-security.md), [threat intelligence](../paths/threat-intelligence.md) |
+| Occasionally, scripts and queries | [Security operations](../paths/security-operations.md), [vulnerability management](../paths/vulnerability-management.md), [IAM](../paths/identity-access-management.md), [incident response](../paths/incident-response-forensics.md), [OT and industrial security](../paths/ot-industrial-security.md) |
+| Rarely | [GRC](../paths/governance-risk-compliance.md), [privacy](../paths/privacy.md), [AI governance](../paths/ai-governance-assurance.md), [leadership](../paths/security-leadership.md) |
 
 Every path benefits from being able to read code and write a short script. Not every path needs you to be a software engineer.
 
@@ -44,4 +44,8 @@ Your previous work is the shortest route in. Developers move into application se
 
 ## A practical way to decide
 
-Spend two weekends on two different paths using the free resources on each path page. For example, one weekend of SOC-style log analysis on a blue-team platform and one weekend of web hacking on PortSwigger's Web Security Academy. Notice which one you kept doing after you meant to stop.
+Spend two weekends on two different paths using the free resources on each path page or in [Practice labs and platforms](practice.md). For example, one weekend of SOC-style log analysis on a blue-team platform and one weekend of web hacking on PortSwigger's Web Security Academy. Notice which one you kept doing after you meant to stop.
+
+---
+
+[← Overview](../README.md) · [All paths](../README.md#the-paths)

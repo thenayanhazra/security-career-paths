@@ -65,3 +65,7 @@ Building: CompTIA SecAI+, CAISP. Advanced: GIAC GAIPS, GASAE. These are all new;
 ## Neighbouring paths
 
 [Application security](application-security.md) · [Cloud security](cloud-security.md) · [AI red teaming](ai-red-teaming.md) · [AI governance and assurance](ai-governance-assurance.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

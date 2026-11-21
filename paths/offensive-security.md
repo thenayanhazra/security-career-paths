@@ -60,3 +60,7 @@ Starting: eJPT, PenTest+. Building: PNPT, OSCP, Burp Suite Certified Practitione
 ## Neighbouring paths
 
 [Vulnerability research](vulnerability-research.md) · [Application security](application-security.md) · [AI red teaming](ai-red-teaming.md) · [Threat intelligence](threat-intelligence.md) · [Incident response and forensics](incident-response-forensics.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

@@ -58,3 +58,7 @@ Starting: Security+ or CC. Building: ISO/IEC 27001 Lead Implementer or Lead Audi
 ## Neighbouring paths
 
 [Privacy](privacy.md) · [AI governance and assurance](ai-governance-assurance.md) · [Security leadership](security-leadership.md) · [Identity and access management](identity-access-management.md) · [Vulnerability management](vulnerability-management.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)

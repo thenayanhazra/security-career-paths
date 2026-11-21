@@ -53,8 +53,12 @@ Security engineering is usually a second or third role, after system administrat
 
 ## Certifications
 
-Building: CySA+ and cloud security certifications. Advanced: CISSP, CompTIA SecurityX (formerly CASP+), Microsoft SC-100, SABSA. See [Certifications](../guides/certifications.md).
+Starting: Security+. Building: CySA+ and cloud security certifications. Advanced: CISSP, CompTIA SecurityX (formerly CASP+), Microsoft SC-100, SABSA. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
 [Cloud security](cloud-security.md) · [Identity and access management](identity-access-management.md) · [Application security](application-security.md) · [Security operations](security-operations.md) · [Vulnerability management](vulnerability-management.md) · [OT and industrial security](ot-industrial-security.md) · [Security leadership](security-leadership.md)
+
+---
+
+[← All paths](../README.md#the-paths) · [Guides](../README.md#start-here)
