@@ -41,13 +41,14 @@ The most common route is from cloud, DevOps or platform engineering: you already
 ## Learn for free
 
 - [AWS Skill Builder](https://skillbuilder.aws/), [Microsoft Learn](https://learn.microsoft.com/en-us/training/) and [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
+- [AWS Well-Architected Security Pillar](https://docs.aws.amazon.com/wellarchitected/latest/framework/security.html): cloud security design principles that carry across providers
 - [CSA Security Guidance](https://cloudsecurityalliance.org/research/guidance): the body of knowledge behind the CCSK
 - [Kubernetes security documentation](https://kubernetes.io/docs/concepts/security/)
 - [Hacking the Cloud](https://hackingthe.cloud/): an encyclopaedia of cloud attack techniques
 
 ## Practise
 
-- [flaws.cloud](http://flaws.cloud/) and [flaws2.cloud](http://flaws2.cloud/) for common AWS mistakes from both attacker and defender sides
+- [Pwned Labs](https://pwnedlabs.io/) (free tier) and [flaws.cloud](http://flaws.cloud/) / [flaws2.cloud](http://flaws2.cloud/) for realistic cloud attack and defence scenarios
 - [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) in your own AWS account, with a budget alert set first
 - [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) locally to practise finding and fixing common container and cluster misconfigurations
 - [Stratus Red Team](https://github.com/DataDog/stratus-red-team) to detonate individual cloud attack techniques across AWS, Azure, Google Cloud or Kubernetes in a disposable test account, then verify whether your audit logs catch them

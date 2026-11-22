@@ -42,6 +42,8 @@ From GRC, privacy, audit, legal and risk management, usually by taking on AI wit
 
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) and the [AI RMF Playbook](https://airc.nist.gov/airmf-resources/playbook/)
 - [EU AI Act Explorer](https://artificialintelligenceact.eu/ai-act-explorer/): the regulation, searchable article by article
+- [OWASP AI Exchange](https://owaspai.org/): open-source AI security and governance guidance feeding into international standards
+- [CSA AI Controls Matrix](https://cloudsecurityalliance.org/artifacts/ai-controls-matrix-v1-1): controls mapped across AI security and governance frameworks
 - [OECD AI Policy Observatory](https://oecd.ai/): policies and incidents from around the world
 - [AI Security Governance](https://github.com/thenayanhazra/ai-security-governance): a risk framework, 34 controls mapped to NIST, ISO/IEC 42001, the EU AI Act, OWASP and MITRE ATLAS, and a board reporting template
 
@@ -49,6 +51,7 @@ From GRC, privacy, audit, legal and risk management, usually by taking on AI wit
 
 - Build an AI inventory and risk classification for a fictional organisation using five or six realistic AI use cases
 - Classify each use case under the EU AI Act and justify your reasoning
+- Review a third-party AI vendor's public security and privacy documentation and draft a supplier assurance checklist covering data retention, training-data use, model updates and incident notification
 - Write a one-page AI risk briefing for a board, with indicators and a decision to take
 
 ## Certifications

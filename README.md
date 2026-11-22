@@ -1,6 +1,7 @@
 # Security Career Paths
 
 [![Links](https://github.com/thenayanhazra/security-career-paths/actions/workflows/links.yml/badge.svg)](https://github.com/thenayanhazra/security-career-paths/actions/workflows/links.yml)
+[![Validate](https://github.com/thenayanhazra/security-career-paths/actions/workflows/validate.yml/badge.svg)](https://github.com/thenayanhazra/security-career-paths/actions/workflows/validate.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 
 **A map of careers in information security, cybersecurity and AI security: what each path involves, how people get in, how they progress, and where to learn, mostly for free.**

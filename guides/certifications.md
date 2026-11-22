@@ -41,7 +41,7 @@ Levels below are relative. "Starting" means achievable without security experien
 | [AI security engineering](../paths/ai-security-engineering.md) | — | SecAI+ (CompTIA); CAISP (Practical DevSecOps) | GIAC GAIPS, GASAE |
 | [AI red teaming](../paths/ai-red-teaming.md) | — | SecAI+; an offensive security certification such as OSCP | GIAC GASAE. The field is new; a portfolio of findings counts most. |
 | [AI governance and assurance](../paths/ai-governance-assurance.md) | — | AIGP (IAPP) | AAISM, AAIA, AAIR (ISACA) |
-| [Security leadership](../paths/security-leadership.md) | — | CISM; CISSP | CCISO (EC-Council); an MBA or equivalent is common but not required |
+| [Security leadership](../paths/security-leadership.md) | — | — | CISM, CISSP; CCISO (EC-Council); an MBA or equivalent is common but not required |
 
 ## Prerequisites to know about
 

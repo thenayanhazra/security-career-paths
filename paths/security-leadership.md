@@ -43,18 +43,21 @@ From any path, after substantial experience. The jump from expert to manager is 
 ## Learn for free
 
 - [NCSC Cyber Security Toolkit for Boards](https://www.ncsc.gov.uk/collection/board-toolkit): what boards need from security leaders, from the UK's National Cyber Security Centre
+- [NCSC Risk Management Guidance](https://www.ncsc.gov.uk/collection/risk-management): practical approaches to making security risk decisions
 - [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework): especially its Govern function
+- [Building Secure and Reliable Systems](https://google.github.io/building-secure-and-reliable-systems/raw/toc.html): Google's free book on designing, running and scaling security programmes
 - [AI Security Governance](https://github.com/thenayanhazra/ai-security-governance): a risk framework, key risk indicators and board reporting template for AI systems
 
 ## Practise
 
 - Volunteer to lead an incident review, a project or a tabletop exercise
 - Write a one-page briefing for a non-technical executive on a current threat. Ask one to read it and tell you what they would decide.
+- Draft a 12-month security roadmap and budget trade-off proposal for a mid-sized company, stating what you would fund first and which risks you would knowingly defer
 - Mentor someone more junior
 
 ## Certifications
 
-CISM and CISSP are the most widely requested. CCISO is aimed specifically at executives. See [Certifications](../guides/certifications.md).
+Starting and building: build depth in your original path first; leadership certifications assume several years of experience. Advanced: CISM and CISSP are the most widely requested, and CCISO is aimed specifically at executives. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 

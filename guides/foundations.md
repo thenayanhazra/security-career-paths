@@ -36,4 +36,8 @@ A home lab is the single best way to turn reading into skill, and it costs littl
 
 ## Where to go next
 
-Return to the [path overview](../README.md#the-paths), or read [how to choose a path](choosing-a-path.md).
+Read [how to choose a path](choosing-a-path.md) to narrow your options, or browse the [path overview](../README.md#the-paths).
+
+---
+
+[← Overview](../README.md) · [All paths](../README.md#the-paths)

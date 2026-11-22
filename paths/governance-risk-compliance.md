@@ -42,7 +42,9 @@ Many come from audit, accounting, legal, project management or IT. Graduates joi
 
 - [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework)
 - [NIST SP 800-53](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final): the most detailed public security control catalogue
+- [NIST SP 800-37 Rev. 2](https://csrc.nist.gov/pubs/sp/800/37/r2/final): the Risk Management Framework for categorising systems and managing control risk
 - [CIS Critical Security Controls](https://www.cisecurity.org/controls): a prioritised, practical control set
+- [CSA Cloud Controls Matrix](https://cloudsecurityalliance.org/research/cloud-controls-matrix): a cloud control framework with free cross-mappings to ISO/IEC 27001, NIST and PCI DSS
 - [ISO/IEC 27001 overview](https://www.iso.org/standard/27001): the standard itself is paid, but its structure is well documented
 
 ## Practise
@@ -50,6 +52,7 @@ Many come from audit, accounting, legal, project management or IT. Graduates joi
 - Write a security policy set for a fictional company of 200 people, mapped to the CIS Controls
 - Run a risk assessment on a real open-source project or a small organisation you know, with their permission
 - Map one framework to another, for example CIS Controls to ISO/IEC 27001 Annex A
+- Write a 15-question third-party security questionnaire for a SaaS vendor handling customer data, and specify what evidence you would accept for each answer
 
 ## Certifications
 

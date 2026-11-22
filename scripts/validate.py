@@ -74,6 +74,96 @@ def split_sections(text: str) -> list[tuple[str, str]]:
     return sections
 
 
+GUIDE_FOOTER = "[← Overview](../README.md) · [All paths](../README.md#the-paths)"
+
+# Non-certification acronyms/abbreviations that may appear in Certifications text
+NON_CERT_TOKENS = {
+    "AI",
+    "AWS",
+    "EC",
+    "GIAC",
+    "IAPP",
+    "IEC",
+    "INE",
+    "ISA",
+    "ISACA",
+    "ISC2",
+    "ISO",
+    "IT",
+    "MBA",
+    "TCM",
+    "US",
+    "V8",
+}
+
+
+def normalise_path_title(title: str) -> str:
+    """Normalise minor title variants (e.g. 'and digital forensics' -> 'and forensics')."""
+    cleaned = re.sub(r"<br\s*/?>.*$", "", title, flags=re.I).strip()
+    return cleaned.lower().replace(" and digital ", " and ")
+
+
+def extract_markdown_tables(text: str) -> list[str]:
+    """Return each contiguous Markdown pipe-table block in a document."""
+    tables: list[str] = []
+    current: list[str] = []
+    in_fence = False
+    for line in text.splitlines():
+        if line.strip().startswith("```"):
+            in_fence = not in_fence
+            if current:
+                tables.append("\n".join(current))
+                current = []
+            continue
+        if in_fence:
+            continue
+        if line.strip().startswith("|"):
+            current.append(line)
+        elif current:
+            tables.append("\n".join(current))
+            current = []
+    if current:
+        tables.append("\n".join(current))
+    return tables
+
+
+def extract_mermaid_labels(text: str) -> set[str]:
+    """Extract normalised node labels from the first Mermaid block in text."""
+    match = re.search(r"```mermaid\s*(.*?)```", text, flags=re.S)
+    if not match:
+        return set()
+    return {
+        normalise_path_title(m.group(1))
+        for m in re.finditer(r'\["([^"]+)"\]', match.group(1))
+    }
+
+
+def extract_cert_codes(text: str) -> set[str]:
+    """Extract recognisable certification codes/acronyms for parity checking."""
+    # Remove Markdown link URLs and prerequisite parenthetical notes
+    stripped = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    stripped = re.sub(r"\(for [^)]+\)", "", stripped, flags=re.I)
+    # Match tokens like Security+, CySA+, SecAI+, SC-200, AZ-500, CIPP/E, eJPT, OSCP, CISSP, CIDPRO
+    pattern = re.compile(
+        r"(?<!\w)(?:[A-Za-z]+\+(?!\w)|(?:eJPT|[A-Z]{2}-\d{3}|CIPP/[A-Z]{1,2}|[A-Z]{3,6})(?!\w))"
+    )
+    return {m.group(0) for m in pattern.finditer(stripped) if m.group(0) not in NON_CERT_TOKENS}
+
+
+def parse_certs_by_path(certs_text: str) -> dict[str, str]:
+    """Map path filenames (e.g. 'cloud-security.md') to their row text in guides/certifications.md."""
+    rows: dict[str, str] = {}
+    sections = dict(split_sections(certs_text))
+    by_path = sections.get("By path", "")
+    for line in by_path.splitlines():
+        if not line.strip().startswith("|"):
+            continue
+        match = re.search(r"\.\./paths/([a-z0-9-]+\.md)", line)
+        if match:
+            rows[match.group(1)] = line
+    return rows
+
+
 def extract_links(text: str) -> list[str]:
     """Extract Markdown link targets, ignoring fenced code blocks."""
     cleaned = re.sub(r"```.*?```", "", text, flags=re.S)
@@ -99,20 +189,31 @@ def validate() -> list[str]:
     guide_files = sorted((ROOT / "guides").glob("*.md"))
 
     readme_links = set(extract_links(readme_text))
+    readme_mermaid_labels = extract_mermaid_labels(readme_text)
     certs_links = set(extract_links(certs_text))
+    certs_rows = parse_certs_by_path(certs_text)
     choose_links = set(extract_links(choose_text))
+    choose_tables = extract_markdown_tables(choose_text)
     moving_links = set(extract_links(moving_text))
 
-    # 1. Every guide is linked from README.md
+    if len(choose_tables) < 2:
+        errors.append("guides/choosing-a-path.md: expected at least 2 comparison tables")
+
+    # 1. Every guide is linked from README.md and follows guide metadata/footer conventions
     for g in guide_files:
         rel = f"guides/{g.name}"
+        g_text = g.read_text(encoding="utf-8")
         if rel not in readme_links:
             errors.append(f"README.md does not link to {rel}")
+        if "*Last reviewed:" not in g_text:
+            errors.append(f"{rel}: missing '*Last reviewed:' line")
+        if GUIDE_FOOTER not in g_text:
+            errors.append(f"{rel}: missing standard navigation footer '{GUIDE_FOOTER}'")
 
     # 2. Every path follows template and is registered in README, guides and resource template
     neighbours: dict[str, list[str]] = {}
     resource_options = {
-        m.group(1).strip()
+        normalise_path_title(m.group(1))
         for m in re.finditer(r"^\s*-\s+(.+)$", resource_text, flags=re.M)
     }
 
@@ -127,6 +228,11 @@ def validate() -> list[str]:
             errors.append(f"guides/certifications.md does not link to {rel_guide}")
         if rel_guide not in choose_links:
             errors.append(f"guides/choosing-a-path.md does not link to {rel_guide}")
+        for idx, table in enumerate(choose_tables, start=1):
+            if rel_guide not in set(extract_links(table)):
+                errors.append(
+                    f"guides/choosing-a-path.md table #{idx} is missing a link to {rel_guide}"
+                )
         if rel_guide not in moving_links:
             errors.append(f"guides/moving-between-paths.md does not link to {rel_guide}")
 
@@ -135,14 +241,14 @@ def validate() -> list[str]:
             errors.append(f"{rel_readme}: missing top-level heading")
         else:
             title = h1_match.group(1).strip()
-            # Match issue template option (allowing minor naming shortening like 'and digital forensics' -> 'and forensics')
-            normalised_options = {
-                opt.lower().replace(" and digital ", " and ")
-                for opt in resource_options
-            }
-            if title.lower().replace(" and digital ", " and ") not in normalised_options:
+            norm_title = normalise_path_title(title)
+            if norm_title not in resource_options:
                 errors.append(
                     f".github/ISSUE_TEMPLATE/resource.yml is missing option for '{title}'"
+                )
+            if norm_title not in readme_mermaid_labels:
+                errors.append(
+                    f"README.md Mermaid diagram is missing a node for '{title}'"
                 )
 
         if "*Last reviewed:" not in text:
@@ -162,9 +268,32 @@ def validate() -> list[str]:
         if "**Framework names:**" not in roles_body:
             errors.append(f"{rel_readme}: missing '**Framework names:**' in Roles along the way")
 
+        practise_body = section_map.get("Practise", "")
+        practise_bullets = [
+            line for line in practise_body.splitlines() if line.lstrip().startswith("- ")
+        ]
+        if len(practise_bullets) < 3:
+            errors.append(
+                f"{rel_readme}: Practise section has only {len(practise_bullets)} bullet(s); expected at least 3"
+            )
+
         certs_body = section_map.get("Certifications", "")
         if "../guides/certifications.md" not in certs_body:
             errors.append(f"{rel_readme}: Certifications section does not link to ../guides/certifications.md")
+
+        if p.name in certs_rows:
+            path_certs = extract_cert_codes(certs_body)
+            guide_certs = extract_cert_codes(certs_rows[p.name])
+            only_in_path = sorted(path_certs - guide_certs)
+            only_in_guide = sorted(guide_certs - path_certs)
+            if only_in_path:
+                errors.append(
+                    f"{rel_readme}: Certifications mentions {only_in_path} not listed in guides/certifications.md"
+                )
+            if only_in_guide:
+                errors.append(
+                    f"guides/certifications.md: row for {p.name} lists {only_in_guide} not mentioned in {rel_readme}"
+                )
 
         neigh_body = section_map.get("Neighbouring paths", "").split("\n---", 1)[0]
         neigh_links = [

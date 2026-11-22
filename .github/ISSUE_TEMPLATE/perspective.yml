@@ -1,0 +1,36 @@
+name: Propose a new path or regional perspective
+description: Suggest a missing career path, a new cross-cutting guide, or how a path differs in your country or sector
+title: "Proposal: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of proposal
+      options:
+        - New career path
+        - New cross-cutting guide
+        - Regional or sector perspective
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: Path, guide or region
+      placeholder: e.g. Detection engineering, or IAM hiring in India / EU
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What is missing and why it matters
+      description: Explain how people actually get hired into this area, or how practice differs in your region or sector.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public references or free resources (optional)
+      description: Links to standards, frameworks (NICE, ECSF, national frameworks) or high-quality free learning materials.
+    validations:
+      required: false

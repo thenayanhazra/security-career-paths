@@ -57,7 +57,7 @@ Starting: Microsoft SC-900. Building: Microsoft SC-300, Okta certifications. Adv
 
 ## Neighbouring paths
 
-[Security engineering](security-engineering-architecture.md) · [Cloud security](cloud-security.md) · [Governance, risk and compliance](governance-risk-compliance.md)
+[Security engineering](security-engineering-architecture.md) · [Cloud security](cloud-security.md) · [AI security engineering](ai-security-engineering.md) · [Governance, risk and compliance](governance-risk-compliance.md)
 
 ---
 
