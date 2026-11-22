@@ -23,6 +23,7 @@ Hands-on practice is what turns knowledge into skill, and what gives you somethi
 | [LetsDefend](https://letsdefend.io/) | Simulated SOC analyst work: alerts, triage, cases | Free tier; paid |
 | [Splunk Boss of the SOC datasets](https://github.com/splunk/botsv3) | Hunting through a large, realistic dataset in your own Splunk instance | Free |
 | [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | Running small attack simulations to test your detections | Free |
+| [Sigma](https://github.com/SigmaHQ/sigma) and [Elastic Detection Rules](https://github.com/elastic/detection-rules) | Writing, testing and studying behavioural detection rules as code | Free |
 | [Velociraptor](https://docs.velociraptor.app/) | Collecting endpoint forensic artefacts and hunting across lab hosts | Free |
 
 ## Web and application security

@@ -9,7 +9,8 @@ Few careers stay on one path. Most people change direction at least once, and th
 | From | To | What carries over | What to add |
 |---|---|---|---|
 | [Security operations](../paths/security-operations.md) | [Incident response](../paths/incident-response-forensics.md) | Triage, log analysis, attacker techniques | Forensics, memory analysis, case handling |
-| [Security operations](../paths/security-operations.md) | Detection engineering ([security operations](../paths/security-operations.md)) | Knowing which alerts are useful | Writing and testing detections as code |
+| [Security operations](../paths/security-operations.md) | [Detection engineering](../paths/detection-engineering.md) | Knowing which alerts are useful; log familiarity | Software engineering habits: Git, CI testing, detections as code |
+| Software or data engineering | [Detection engineering](../paths/detection-engineering.md) | Python/SQL, pipelines, CI/CD, data modelling | Attacker techniques, Windows/Linux/cloud audit logs, tuning false positives |
 | [Security operations](../paths/security-operations.md) | [Vulnerability management](../paths/vulnerability-management.md) | Knowing what attacks exploit; tooling | Prioritisation models, asset data, negotiating fix timelines |
 | [Vulnerability management](../paths/vulnerability-management.md) | [Security engineering](../paths/security-engineering-architecture.md) or [cloud security](../paths/cloud-security.md) | Breadth across systems; automation | Designing controls so the same flaws stop recurring |
 | [Security operations](../paths/security-operations.md) | [Threat intelligence](../paths/threat-intelligence.md) | Attacker techniques; investigation | Structured analysis, writing for decision-makers |
@@ -36,7 +37,7 @@ Few careers stay on one path. Most people change direction at least once, and th
 
 ## When to specialise and when to stay broad
 
-Early in a career, breadth helps: you learn how the parts fit together. After a few years, depth gets you hired, because teams want someone who is the best at something. Later, breadth matters again for architecture and leadership. The most effective senior people are "T-shaped": deep in one area, conversant in most.
+Early in a career, breadth helps: you learn how the parts fit together. After a few years, depth gets you hired, because teams want someone who is the best at something. Later, breadth matters again for architecture, Staff+ engineering and leadership. The most effective senior people are "T-shaped": deep in one area, conversant in most. See [Advancing past mid-level](senior-progression.md).
 
 ---
 

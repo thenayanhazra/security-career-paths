@@ -41,6 +41,12 @@ The field is young. Many of the people doing this work today were application, c
 
 From application security, cloud security or ML engineering, usually by taking ownership of security for an AI feature in a current job. Building and publishing small tools or research is the most effective way to show ability in a field this new.
 
+## Trade-offs
+
+- **No clean silver bullet:** prompt injection is not solved at the model layer, so you design probabilistic defences backed by deterministic permission boundaries.
+- **Fast-moving targets:** frameworks, model capabilities and agent protocols change every few months, quickly outdating patterns and tooling.
+- **Hype and blurred roles:** job postings vary wildly—from securing enterprise chatbots to hardening GPU clusters—so read descriptions carefully before applying.
+
 ## Learn for free
 
 - [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) (2026 edition) and the [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
@@ -57,6 +63,15 @@ From application security, cloud security or ML engineering, usually by taking o
 - Build a small agent with one tool, attack it with indirect prompt injection, then redesign it so the attack no longer matters
 - Build an automated security evaluation suite in CI using [promptfoo](https://github.com/promptfoo/promptfoo) or the UK AI Security Institute's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) framework (or [LLM Prompt Injection Fuzzer](https://github.com/thenayanhazra/llm-prompt-injection-fuzzer))
 - Audit agent instruction files and MCP tool servers using [agentlint](https://github.com/thenayanhazra/agentlint) and [MCP Adversarial Harness](https://github.com/thenayanhazra/mcp-adversarial-harness)
+
+## Ready to apply
+
+You are ready to interview for an AI security engineering role when you can:
+
+- Threat model a RAG pipeline or tool-using agent, identifying trust boundaries between untrusted data, model context and privileged actions
+- Explain why system-prompt instructions cannot be trusted as a security boundary, and design least-privilege tool scoping and human approval gates instead
+- Audit an MCP server or plugin integration for tool poisoning, excessive permissions and data exfiltration paths
+- Write repeatable automated security evaluations in CI that measure defence effectiveness rather than relying on manual spot checks
 
 ## Certifications
 

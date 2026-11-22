@@ -38,6 +38,12 @@ Most new systems run in the cloud, and most cloud breaches come from misconfigur
 
 The most common route is from cloud, DevOps or platform engineering: you already know how the systems are built. Security operations analysts who specialise in cloud logs are another source.
 
+## Trade-offs
+
+- **Constant platform churn:** AWS, Azure, Google Cloud and Kubernetes add services and change defaults continuously, so knowledge ages quickly.
+- **High blast radius:** a tight IAM policy or network guardrail can break production workloads if rolled out without careful testing.
+- **Multi-cloud sprawl:** many organisations run more than one cloud plus SaaS platforms, stretching small teams across very different permission models.
+
 ## Learn for free
 
 - [AWS Skill Builder](https://skillbuilder.aws/), [Microsoft Learn](https://learn.microsoft.com/en-us/training/) and [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
@@ -54,13 +60,22 @@ The most common route is from cloud, DevOps or platform engineering: you already
 - [Stratus Red Team](https://github.com/DataDog/stratus-red-team) to detonate individual cloud attack techniques across AWS, Azure, Google Cloud or Kubernetes in a disposable test account, then verify whether your audit logs catch them
 - Build a multi-account AWS or Azure landing zone in Terraform with identity boundaries, centralised logging and policy-as-code guardrails, and publish it
 
+## Ready to apply
+
+You are ready to interview for a cloud security role when you can:
+
+- Trace how IAM policy evaluation works in at least one major cloud (including organisation guardrails, role assumption and least-privilege boundaries)
+- Write reusable infrastructure-as-code templates (such as Terraform) with secure networking, encryption and logging defaults
+- Explain common cloud attack paths—credential theft, privilege escalation, public storage exposure and container escape—and how to detect them in audit logs
+- Prioritise posture-management alerts by actual reachability and blast radius rather than raw severity counts
+
 ## Certifications
 
 Starting: a cloud provider's foundational certification. Building: CCSK, AWS Certified Security – Specialty, Microsoft AZ-500, Google Professional Cloud Security Engineer. Advanced: CCSP, GIAC GCLD or GPCS. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
-[Security engineering](security-engineering-architecture.md) · [Identity and access management](identity-access-management.md) · [Application security](application-security.md) · [Security operations](security-operations.md) · [Vulnerability management](vulnerability-management.md) · [AI security engineering](ai-security-engineering.md)
+[Security engineering](security-engineering-architecture.md) · [Identity and access management](identity-access-management.md) · [Application security](application-security.md) · [Security operations](security-operations.md) · [Detection engineering](detection-engineering.md) · [Vulnerability management](vulnerability-management.md) · [AI security engineering](ai-security-engineering.md)
 
 ---
 

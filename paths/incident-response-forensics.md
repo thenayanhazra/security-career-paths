@@ -37,6 +37,12 @@ When an incident is confirmed, responders take over. They scope the damage, cont
 
 Most responders spend a year or more in a SOC or in system administration first. Consultancies that offer incident response retainers hire analysts and train them across many organisations' incidents, which builds experience quickly. Law enforcement digital forensics units are another route, with their own entry requirements.
 
+## Trade-offs
+
+- **Unpredictable hours:** serious incidents arrive on Friday evenings and holidays, and consultancy retainers involve intense bursts of long days.
+- **High stress and incomplete evidence:** logs are often missing or wiped, yet executives and lawyers still need clear answers fast.
+- **Emotional fatigue:** responding to repeated ransomware crises or insider cases takes a toll without good team rotation and recovery time.
+
 ## Learn for free
 
 - [13Cubed](https://www.youtube.com/@13cubed): clear, practical videos on Windows and memory forensics
@@ -51,13 +57,22 @@ Most responders spend a year or more in a SOC or in system administration first.
 - Collect Windows forensic artefacts from a lab host with [Velociraptor](https://docs.velociraptor.app/) and reconstruct an end-to-end attack timeline
 - Draft an incident response playbook for a realistic scenario (such as ransomware or compromised cloud credentials) aligned to [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final), then walk through it as a tabletop exercise
 
+## Ready to apply
+
+You are ready to interview for a junior DFIR or incident response role when you can:
+
+- Walk through containment, eradication and recovery for a ransomware or compromised-account scenario without destroying volatile evidence
+- Explain key Windows and Linux forensic artefacts (execution evidence, persistence mechanisms, authentication logs) and build a clear timeline
+- Analyse a memory image or artefact collection using tools such as Volatility or Velociraptor
+- Communicate known facts, open questions and confidence levels cleanly under time pressure
+
 ## Certifications
 
 Starting: Security+. Building: GIAC GCIH, CySA+. Advanced: GIAC GCFA, GCFE, GNFA, and GREM for malware analysis. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
-[Security operations](security-operations.md) · [Threat intelligence](threat-intelligence.md) · [Offensive security](offensive-security.md) · [OT and industrial security](ot-industrial-security.md) · [Privacy](privacy.md)
+[Security operations](security-operations.md) · [Detection engineering](detection-engineering.md) · [Threat intelligence](threat-intelligence.md) · [Offensive security](offensive-security.md) · [OT and industrial security](ot-industrial-security.md) · [Privacy](privacy.md)
 
 ---
 

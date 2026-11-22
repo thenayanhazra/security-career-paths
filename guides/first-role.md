@@ -14,10 +14,12 @@ Roles that lead naturally into security:
 |---|---|
 | IT support or service desk | [Security operations](../paths/security-operations.md), [IAM](../paths/identity-access-management.md), [vulnerability management](../paths/vulnerability-management.md) |
 | System or network administration | [Security engineering](../paths/security-engineering-architecture.md), [operations](../paths/security-operations.md), [vulnerability management](../paths/vulnerability-management.md), [OT](../paths/ot-industrial-security.md) |
-| Software development | [Application security](../paths/application-security.md), [AI security engineering](../paths/ai-security-engineering.md) |
+| Software development | [Application security](../paths/application-security.md), [detection engineering](../paths/detection-engineering.md), [AI security engineering](../paths/ai-security-engineering.md) |
 | Cloud or DevOps engineering | [Cloud security](../paths/cloud-security.md), [security engineering](../paths/security-engineering-architecture.md) |
 | Audit, compliance, legal | [GRC](../paths/governance-risk-compliance.md), [privacy](../paths/privacy.md), [AI governance](../paths/ai-governance-assurance.md) |
 | Data science or ML engineering | [AI security engineering](../paths/ai-security-engineering.md), [AI red teaming](../paths/ai-red-teaming.md) |
+
+See [Where security teams sit](employers-and-markets.md) for how hiring differs across MSSPs, consultancies, in-house teams and regions.
 
 ## Build evidence, not just credentials
 
@@ -29,7 +31,7 @@ Employers hiring juniors are trying to answer one question: will this person lea
 - **Contributions** to open-source security projects, even documentation fixes.
 - **Competitions:** capture-the-flag events, both attack and defence.
 
-One well-written project you can talk about for twenty minutes beats ten half-finished ones.
+One well-written project you can talk about for twenty minutes beats ten half-finished ones. See [Interviews and portfolios](interviews-and-portfolios.md) for what makes a portfolio project stand out, and [Working with AI in security](working-with-ai.md) for how to use AI tools without weakening your fundamentals.
 
 ## Your CV
 
@@ -46,7 +48,7 @@ Expect three kinds of question:
 2. **Scenarios:** "You see this alert. What do you do?" They are testing your reasoning more than whether you reach the right answer. Talk through it out loud.
 3. **Motivation:** why security, why this path, what you have built. Your projects answer this.
 
-Saying "I don't know, but here is how I would find out" is a good answer. Bluffing is a bad one.
+Saying "I don't know, but here is how I would find out" is a good answer. Bluffing is a bad one. For sample questions across every path family, see [Interviews and portfolios](interviews-and-portfolios.md).
 
 ## Communities
 

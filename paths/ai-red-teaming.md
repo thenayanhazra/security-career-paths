@@ -37,6 +37,12 @@ AI red teamers probe AI systems adversarially. Some focus on security: injecting
 
 Mostly from offensive security, ML engineering or safety research. AI labs, large technology companies and specialist consultancies hire most AI red teamers. Public findings, competition results and open-source tooling are the strongest evidence of ability.
 
+## Trade-offs
+
+- **Non-deterministic targets:** an attack that succeeds once may fail on the next run, so proving severity requires statistical measurement rather than a single screenshot.
+- **Exposure to harmful content:** safety-oriented red teaming involves deliberately probing for abusive, dangerous or disturbing outputs, which requires clear team wellbeing practices.
+- **Narrow hiring pool:** full-time AI red teaming roles remain concentrated at frontier labs, big tech and specialist firms.
+
 ## Learn for free
 
 - [MITRE ATLAS](https://atlas.mitre.org/): the adversary techniques and real-world case studies
@@ -52,6 +58,15 @@ Mostly from offensive security, ML engineering or safety research. AI labs, larg
 - [Damn Vulnerable LLM Agent](https://github.com/ReversecLabs/damn-vulnerable-llm-agent)
 - Run [LLM Prompt Injection Fuzzer](https://github.com/thenayanhazra/llm-prompt-injection-fuzzer) against a local model and compare bypass rates across system prompts
 - Run [MCP Adversarial Harness](https://github.com/thenayanhazra/mcp-adversarial-harness) against its bundled vulnerable server, then write a detection for each finding
+
+## Ready to apply
+
+You are ready to interview for an AI red teaming role when you can:
+
+- Design a structured attack plan against an AI application or agent covering direct/indirect prompt injection, data leakage and tool misuse
+- Automate multi-turn or fuzzing probes in Python using tools such as PyRIT, garak or custom harnesses, and report reproducible bypass rates
+- Distinguish low-impact model quirks from real security failures that cross a trust boundary or compromise user data
+- Write clear, evidence-backed findings with realistic architectural mitigations rather than vague "improve the prompt" advice
 
 ## Certifications
 

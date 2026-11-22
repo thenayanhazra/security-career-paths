@@ -37,6 +37,12 @@ Security engineers build and operate security infrastructure: identity platforms
 
 Security engineering is usually a second or third role, after system administration, networking, cloud engineering or security operations. Architecture typically follows several years of engineering.
 
+## Trade-offs
+
+- **Legacy constraints:** you rarely design from a blank page; most work involves improving ageing infrastructure without breaking critical services.
+- **Tool sprawl and vendor fatigue:** maintaining agents, log pipelines and integrations takes steady operational effort alongside design work.
+- **Consensus building:** architectural decisions touch networking, IT, product and compliance, so progress can feel slow in large organisations.
+
 ## Learn for free
 
 - [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final)
@@ -51,13 +57,22 @@ Security engineering is usually a second or third role, after system administrat
 - Replace static credentials in a lab application with short-lived tokens or a local secrets manager and centralise its audit logs
 - Take an existing system diagram and write a one-page architecture review noting trust boundaries, single points of failure and three pragmatic mitigations
 
+## Ready to apply
+
+You are ready to interview for a security engineering or architecture role when you can:
+
+- Design a complete system with explicit trust boundaries, identity controls, segmentation, secrets handling and audit logging
+- Automate hardening, deployment or control verification using scripts, Ansible or infrastructure as code
+- Explain trade-offs between security, cost, latency and usability—and propose a safer alternative instead of a blunt "no"
+- Diagnose failures across operating systems, networking, TLS, identity and logging pipelines
+
 ## Certifications
 
 Starting: Security+. Building: CySA+ and cloud security certifications. Advanced: CISSP, CompTIA SecurityX (formerly CASP+), Microsoft SC-100, SABSA. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
-[Cloud security](cloud-security.md) · [Identity and access management](identity-access-management.md) · [Application security](application-security.md) · [Security operations](security-operations.md) · [Vulnerability management](vulnerability-management.md) · [OT and industrial security](ot-industrial-security.md) · [Security leadership](security-leadership.md)
+[Cloud security](cloud-security.md) · [Identity and access management](identity-access-management.md) · [Application security](application-security.md) · [Security operations](security-operations.md) · [Detection engineering](detection-engineering.md) · [Vulnerability management](vulnerability-management.md) · [OT and industrial security](ot-industrial-security.md) · [Security leadership](security-leadership.md)
 
 ---
 

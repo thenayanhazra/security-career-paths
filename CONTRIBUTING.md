@@ -32,10 +32,12 @@ Every path page follows the same order, so readers can compare paths side by sid
 4. **Roles along the way**: a table of entry, mid and senior titles, then the closest NICE and ECSF role names
 5. **Skills that matter**
 6. **How people get in**
-7. **Learn for free**
-8. **Practise**
-9. **Certifications**, by level, linking to the certifications guide
-10. **Neighbouring paths**
+7. **Trade-offs**: three candid points on what people find hard or dislike about the path
+8. **Learn for free**
+9. **Practise**
+10. **Ready to apply**: concrete, observable checkpoints for interview readiness
+11. **Certifications**, by level, linking to the certifications guide
+12. **Neighbouring paths**
 
 When you add a path, also update the README table and diagram, the [certifications guide](guides/certifications.md), the resource issue template, and any relevant rows in [choosing a path](guides/choosing-a-path.md), [getting your first role](guides/first-role.md) and [moving between paths](guides/moving-between-paths.md).
 

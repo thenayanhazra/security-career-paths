@@ -38,6 +38,12 @@ GRC professionals decide what "secure enough" means for an organisation and chec
 
 Many come from audit, accounting, legal, project management or IT. Graduates join audit and consulting firms' technology risk practices. Technical people who enjoy writing and influence also move across. The fastest-growing GRC tools and teams increasingly automate evidence collection, so scripting and data skills are becoming an advantage.
 
+## Trade-offs
+
+- **Risk of checkbox culture:** in weaker organisations, GRC is reduced to chasing screenshots before an audit rather than genuinely lowering risk.
+- **Slower feedback loops:** you rarely get the immediate satisfaction of fixing a bug or stopping an intrusion; impact shows up over quarters.
+- **Unpopular messenger:** reminding busy teams about policy exceptions, vendor questionnaires and audit deadlines requires steady diplomacy.
+
 ## Learn for free
 
 - [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework)
@@ -53,6 +59,15 @@ Many come from audit, accounting, legal, project management or IT. Graduates joi
 - Run a risk assessment on a real open-source project or a small organisation you know, with their permission
 - Map one framework to another, for example CIS Controls to ISO/IEC 27001 Annex A
 - Write a 15-question third-party security questionnaire for a SaaS vendor handling customer data, and specify what evidence you would accept for each answer
+
+## Ready to apply
+
+You are ready to interview for an entry-level GRC role when you can:
+
+- Explain the difference between a policy, a standard, a control and evidence—and spot weak evidence that only proves a document exists
+- Walk through a risk assessment from asset and threat identification to likelihood, impact, treatment options and residual risk
+- Compare two major frameworks (such as NIST CSF 2.0, ISO/IEC 27001 and SOC 2) and explain how a single control satisfies multiple requirements
+- Write a concise, jargon-free risk summary that helps a non-technical manager make a clear decision
 
 ## Certifications
 

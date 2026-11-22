@@ -36,6 +36,12 @@ Operational technology (OT) and industrial control systems (ICS) follow differen
 
 From two directions: control and automation engineers who learn security, and network or security engineers who learn industrial systems. Both are valued. Energy, utilities, manufacturing and transport are the main employers, along with specialist vendors and consultancies.
 
+## Trade-offs
+
+- **On-site work and travel:** factories, substations and plants cannot be secured solely from a laptop; many roles require site visits, safety gear and travel.
+- **Very slow change windows:** patching may only happen during scheduled plant shutdowns once or twice a year, so you rely heavily on compensating network controls.
+- **Culture gap between IT and operations:** plant operators rightly prioritise physical safety and uptime above security checklists; earning trust takes patience and humility.
+
 ## Learn for free
 
 - [CISA ICS training](https://www.cisa.gov/resources-tools/programs/ics-training-available-through-cisa): free online courses on industrial control system security
@@ -50,6 +56,15 @@ From two directions: control and automation engineers who learn security, and ne
 - Analyse real industrial protocol captures (Modbus, DNP3, S7 and BACnet) from the [ICS-pcap](https://github.com/automayt/ICS-pcap) collection to distinguish routine polling from write commands
 - Diagram an IT/OT network segmentation plan for a fictional plant using ISA/IEC 62443 zones and conduits, including audited remote access for maintenance vendors
 - Map a published ICS incident to [MITRE ATT&CK for ICS](https://attack.mitre.org/matrices/ics/) and note which detections would work passively without active scanning
+
+## Ready to apply
+
+You are ready to interview for an OT security role when you can:
+
+- Explain why safety and availability outweigh confidentiality in industrial environments, and why active IT scanning can disrupt legacy PLCs
+- Sketch a segmented IT/OT architecture using Purdue levels or ISA/IEC 62443 zones and conduits with controlled vendor remote access
+- Read an industrial protocol capture (such as Modbus TCP) and identify unexpected write or configuration commands
+- Propose practical compensating controls when an end-of-life industrial controller cannot be patched
 
 ## Certifications
 

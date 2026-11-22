@@ -38,6 +38,12 @@ As AI moves into decisions about credit, hiring, healthcare and security itself,
 
 From GRC, privacy, audit, legal and risk management, usually by taking on AI within an existing role. Technical people who prefer policy and influence also move across.
 
+## Trade-offs
+
+- **Shifting rules and guidance:** regulatory enforcement timelines, national standards and best practices are still settling, so policies need regular revision.
+- **Shadow AI everywhere:** business teams adopt AI tools far faster than formal review processes move, making practical guardrails harder than writing rules.
+- **Bridging two worlds:** lawyers expect precision while ML engineers want speed; without enough technical grounding, governance teams get bypassed.
+
 ## Learn for free
 
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) and the [AI RMF Playbook](https://airc.nist.gov/airmf-resources/playbook/)
@@ -53,6 +59,15 @@ From GRC, privacy, audit, legal and risk management, usually by taking on AI wit
 - Classify each use case under the EU AI Act and justify your reasoning
 - Review a third-party AI vendor's public security and privacy documentation and draft a supplier assurance checklist covering data retention, training-data use, model updates and incident notification
 - Write a one-page AI risk briefing for a board, with indicators and a decision to take
+
+## Ready to apply
+
+You are ready to interview for an AI governance and assurance role when you can:
+
+- Classify an AI use case by risk tier under the EU AI Act and map practical controls from NIST AI RMF or ISO/IEC 42001
+- Ask sharp technical questions about training data, RAG data sources, agent permissions, evaluation results and fallback behaviour
+- Design a lightweight intake and vendor-review workflow that enables safe adoption instead of blocking every request
+- Brief senior stakeholders on AI risks, regulatory obligations and key risk indicators in one page of plain language
 
 ## Certifications
 

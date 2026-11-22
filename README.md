@@ -15,11 +15,15 @@ It is written for two readers: people trying to get in, and people already in wh
 | If you are... | Read |
 |---|---|
 | New to the field, or still deciding | [How to choose a path](guides/choosing-a-path.md), then [Foundations](guides/foundations.md) |
-| Ready to apply for your first role | [Getting your first role](guides/first-role.md) |
+| Ready to apply for your first role | [Getting your first role](guides/first-role.md) and [Interviews and portfolios](guides/interviews-and-portfolios.md) |
+| Comparing employer types or regional markets | [Where security teams sit](guides/employers-and-markets.md) |
 | Already working in security and want to change direction | The path you are considering, then [Moving between paths](guides/moving-between-paths.md) |
+| Moving from mid-level to Staff+, principal or leadership | [Advancing past mid-level](guides/senior-progression.md) |
 | Weighing up certifications | [Certifications by path and level](guides/certifications.md) |
 | Looking for hands-on practice | [Practice labs and platforms](guides/practice.md) |
+| Using AI tools to learn or work in security | [Working with AI in security](guides/working-with-ai.md) |
 | Wanting to keep up once you are in | [Staying current](guides/staying-current.md) |
+| Unfamiliar with an acronym or term | [Glossary](guides/glossary.md) |
 
 ## The paths
 
@@ -32,6 +36,7 @@ flowchart LR
   F --> G["Govern"]
   F --> AI["AI security"]
   D --> SO["Security operations"]
+  D --> DE["Detection engineering"]
   D --> VM["Vulnerability management"]
   D --> IR["Incident response and forensics"]
   D --> TI["Threat intelligence"]
@@ -55,6 +60,7 @@ The AI security paths draw on the others: AI security engineering builds on appl
 | Family | Path | In one line | Typical entry |
 |---|---|---|---|
 | Defend | [Security operations](paths/security-operations.md) | Watch, detect and respond to threats as they happen | Beginner-friendly |
+| Defend | [Detection engineering](paths/detection-engineering.md) | Build, test and maintain detections and telemetry as code | Usually from SOC or software/data engineering |
 | Defend | [Vulnerability management](paths/vulnerability-management.md) | Find known weaknesses at scale, prioritise them and get them fixed | Beginner-friendly via IT operations |
 | Defend | [Incident response and digital forensics](paths/incident-response-forensics.md) | Work out what happened, contain it and recover | Usually after 1–3 years in operations or IT |
 | Defend | [Threat intelligence](paths/threat-intelligence.md) | Understand adversaries and turn that into decisions | Varies; analysts from many backgrounds |

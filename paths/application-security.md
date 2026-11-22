@@ -38,6 +38,12 @@ Application security (AppSec) engineers sit between security and software develo
 
 Software developers make the move most often, and are well placed to: they understand the code and the culture. Penetration testers who want to fix as well as find are the other common source.
 
+## Trade-offs
+
+- **Outnumbered by developers:** one AppSec engineer often supports fifty or more developers, so you cannot review every pull request by hand.
+- **Friction with delivery speed:** pushing hard fixes close to launch dates creates tension unless you build trust early and offer pragmatic alternatives.
+- **Noisy tooling:** SAST and dependency scanners generate high volumes of low-signal alerts that must be tuned aggressively or engineers will ignore them.
+
 ## Learn for free
 
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security)
@@ -54,6 +60,15 @@ Software developers make the move most often, and are well placed to: they under
 - Add security scanning to a CI pipeline for one of your own projects, and tune out the noise
 - Threat model an open-source application and write it up
 - Review an authentication or API module in an open-source repository against [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/), and write clear, developer-friendly fix guidance for what you find
+
+## Ready to apply
+
+You are ready to interview for an application security role when you can:
+
+- Spot common security flaws (broken access control, injection, SSRF, insecure deserialisation, secret exposure) directly in code and write a clean fix
+- Run a focused threat-modelling session for a new web or API feature and prioritise the top three controls
+- Integrate SAST, SCA and secret scanning into CI/CD without flooding developers with false positives
+- Explain security risks in engineering terms and propose safe defaults that make secure code easy to write
 
 ## Certifications
 
