@@ -36,6 +36,12 @@ Privacy overlaps with security but is not the same thing: a system can be perfec
 
 Lawyers, compliance professionals and GRC analysts move into privacy most often. Privacy engineering is a growing technical branch that draws software and data engineers.
 
+## Trade-offs
+
+- **Fragmented global law:** keeping up with overlapping European, US state, Indian and APAC data protection rules requires constant reading.
+- **Tension with data-hungry products:** analytics, marketing and AI teams routinely want to collect and retain more data than data minimisation allows.
+- **Legal-adjacent ceiling:** some senior privacy counsel and DPO posts strongly prefer a law degree, even when operational privacy does not require one.
+
 ## Learn for free
 
 - [IAPP resource centre](https://iapp.org/resources/): news, guides and glossaries (some content needs membership)
@@ -49,6 +55,15 @@ Lawyers, compliance professionals and GRC analysts move into privacy most often.
 - Build a record of processing activities (data map) for a small web application, tracing where personal data enters, where it is stored, which third parties receive it and where collection could be minimised
 - Draft a 72-hour personal data breach assessment and notification checklist showing when regulators and affected individuals must be informed
 - Audit a public privacy notice from a consumer service against GDPR Articles 13 and 14, noting what is transparent and what is missing
+
+## Ready to apply
+
+You are ready to interview for a privacy role when you can:
+
+- Explain lawful bases for processing, controller versus processor duties, and core principles such as purpose limitation and data minimisation
+- Walk through a DPIA for a new product feature and propose concrete technical or contractual mitigations
+- Outline how to triage a personal data breach against statutory notification clocks and assess risk to individuals
+- Translate legal requirements into clear, practical guidance that product and engineering teams can actually implement
 
 ## Certifications
 

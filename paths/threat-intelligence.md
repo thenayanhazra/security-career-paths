@@ -36,6 +36,12 @@ Threat intelligence analysts collect information about adversaries, assess it an
 
 The path draws from unusual places: SOC analysts, journalists, political scientists, military and government intelligence, linguists. A technical foundation is still needed, but structured analysis and writing are what set strong analysts apart.
 
+## Trade-offs
+
+- **Small job market:** dedicated CTI teams mostly exist at large enterprises, banks, governments and security vendors, so entry-level openings are competitive.
+- **Ambiguity and attribution limits:** you rarely have complete facts, and stakeholders sometimes push for certainty the evidence does not support.
+- **Risk of unread reports:** if you do not tie analysis to concrete detection, patching or executive decisions, your work sits on a shelf.
+
 ## Learn for free
 
 - [MITRE ATT&CK CTI training](https://attack.mitre.org/resources/learn-more-about-attack/training/cti/): using ATT&CK for intelligence work
@@ -50,13 +56,22 @@ The path draws from unusual places: SOC analysts, journalists, political scienti
 - Run [MISP](https://www.misp-project.org/) locally, import a public feed of indicators, enrich one event and export a STIX bundle
 - Draft a one-page bottom-line-up-front (BLUF) briefing for an executive on a recent campaign, ending with two concrete decisions to take
 
+## Ready to apply
+
+You are ready to interview for a threat intelligence role when you can:
+
+- Turn raw technical reporting into a one-page BLUF assessment with explicit confidence levels, assumptions and recommended actions
+- Map an intrusion to MITRE ATT&CK and explain why behaviour-based techniques outlast IP addresses and file hashes
+- Explain the intelligence lifecycle and how to gather requirements from SOC, vulnerability management and leadership stakeholders
+- Share two or three polished public writing samples showing disciplined sourcing and clear analytical reasoning
+
 ## Certifications
 
 Starting: Security+. Building and advanced: GIAC GCTI. A public portfolio of analysis carries as much weight. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
-[Security operations](security-operations.md) · [Vulnerability management](vulnerability-management.md) · [Incident response](incident-response-forensics.md) · [Offensive security](offensive-security.md)
+[Security operations](security-operations.md) · [Detection engineering](detection-engineering.md) · [Vulnerability management](vulnerability-management.md) · [Incident response](incident-response-forensics.md) · [Offensive security](offensive-security.md)
 
 ---
 

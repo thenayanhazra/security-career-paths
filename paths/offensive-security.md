@@ -39,6 +39,12 @@ Some testers are hired straight from study with strong lab work and an entry cer
 
 **Only ever test systems you own or have written permission to test.** Unauthorised testing is illegal in most countries, whatever the intent.
 
+## Trade-offs
+
+- **Heavy competition at entry level:** far more people want to be penetration testers than there are junior roles, so the bar for first jobs is high.
+- **Report writing and tight timelines:** consulting engagements are often short and compliance-driven, with 30–40% of your time spent documenting findings cleanly.
+- **Repetitive findings:** you will find the same missing headers, weak passwords and misconfigurations many times before seeing a novel exploit chain.
+
 ## Learn for free
 
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security): the best free web security training anywhere
@@ -53,13 +59,22 @@ Some testers are hired straight from study with strong lab work and an entry cer
 - Build a small Active Directory lab and attack it
 - Bug bounty programmes on public platforms, once you have the basics, with their rules followed exactly
 
+## Ready to apply
+
+You are ready to interview for a junior offensive security role when you can:
+
+- Follow a structured methodology across a web application or internal network rather than running scanners blindly
+- Explain common web and Active Directory flaws (such as IDOR, SQL injection, SSRF and Kerberoasting) in terms of root cause, impact and fix
+- Produce a crisp penetration-test report sample with an executive summary, reproduction steps and practical remediation advice
+- Respect scope, rules of engagement and safe testing practices without prompting
+
 ## Certifications
 
 Starting: eJPT, PenTest+. Building: PNPT, OSCP, Burp Suite Certified Practitioner, CRTO. Advanced: OSEP, OSWE, GIAC GPEN, GXPN. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
-[Vulnerability research](vulnerability-research.md) · [Application security](application-security.md) · [AI red teaming](ai-red-teaming.md) · [Threat intelligence](threat-intelligence.md) · [Incident response and forensics](incident-response-forensics.md)
+[Vulnerability research](vulnerability-research.md) · [Application security](application-security.md) · [AI red teaming](ai-red-teaming.md) · [Detection engineering](detection-engineering.md) · [Threat intelligence](threat-intelligence.md) · [Incident response and forensics](incident-response-forensics.md)
 
 ---
 

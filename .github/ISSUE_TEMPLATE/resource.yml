@@ -16,6 +16,7 @@ body:
       label: Which path or guide does it belong to?
       options:
         - Security operations
+        - Detection engineering
         - Vulnerability management
         - Incident response and forensics
         - Threat intelligence

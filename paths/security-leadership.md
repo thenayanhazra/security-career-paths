@@ -38,7 +38,13 @@ Leadership is less a separate path than where many paths lead. A team lead still
 
 ## How people get in
 
-From any path, after substantial experience. The jump from expert to manager is the hardest, and not everyone should make it. Many organisations now offer a parallel technical track (staff, principal and distinguished engineer) for those who want seniority without managing people.
+From any path, after substantial experience. The jump from expert to manager is the hardest, and not everyone should make it. Many organisations now offer a parallel technical track (staff, principal and distinguished engineer) for those who want seniority without managing people. See [Advancing past mid-level](../guides/senior-progression.md).
+
+## Trade-offs
+
+- **Stepping away from hands-on work:** the higher you go, the less time you spend in terminals, code or investigations—and the more you spend in meetings, budgets and hiring.
+- **High accountability, shared control:** you answer to the CEO, board and regulators when an incident happens, even when root-cause budgets sit in other departments.
+- **Personal and regulatory scrutiny:** at executive level, CISO tenure is relatively short and legal accountability for breach disclosures has tightened across major jurisdictions.
 
 ## Learn for free
 
@@ -54,6 +60,15 @@ From any path, after substantial experience. The jump from expert to manager is 
 - Write a one-page briefing for a non-technical executive on a current threat. Ask one to read it and tell you what they would decide.
 - Draft a 12-month security roadmap and budget trade-off proposal for a mid-sized company, stating what you would fund first and which risks you would knowingly defer
 - Mentor someone more junior
+
+## Ready to apply
+
+You are ready to step into a security leadership role when you can:
+
+- Translate technical vulnerabilities and programme gaps into business risk, cost and clear decision options for executives
+- Build a prioritised multi-quarter roadmap under fixed headcount and budget, stating explicitly what you will not do
+- Coach and develop people, delegate effectively and give direct, constructive feedback
+- Stay composed during a live incident while coordinating technical responders, legal counsel and senior leadership
 
 ## Certifications
 

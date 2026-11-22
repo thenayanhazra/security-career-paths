@@ -26,6 +26,7 @@ Levels below are relative. "Starting" means achievable without security experien
 | Path | Starting | Building | Advanced |
 |---|---|---|---|
 | [Security operations](../paths/security-operations.md) | Security+ | CySA+ (CompTIA); Blue Team Level 1 (Security Blue Team); Certified CyberDefender (CyberDefenders); Microsoft SC-200 | GIAC GCIA, GCDA |
+| [Detection engineering](../paths/detection-engineering.md) | Security+ | CySA+ (CompTIA); Certified CyberDefender (CyberDefenders); Microsoft SC-200 | GIAC GCDA, GCIA |
 | [Vulnerability management](../paths/vulnerability-management.md) | Security+ | CySA+; vendor training from Tenable or Qualys | GIAC GEVA; CISSP for programme leads |
 | [Incident response and forensics](../paths/incident-response-forensics.md) | Security+ | GIAC GCIH; CySA+ | GIAC GCFA, GCFE, GNFA, GREM |
 | [Threat intelligence](../paths/threat-intelligence.md) | Security+ | GIAC GCTI | GIAC GCTI plus a public body of analysis |

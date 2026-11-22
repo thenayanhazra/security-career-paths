@@ -36,6 +36,12 @@ The security operations centre (SOC) is where most defenders start. It is the fr
 
 The most direct route is applying for tier 1 analyst roles with a foundation certification and a home lab. IT support and service desk staff often move into SOC roles internally. Managed security service providers (MSSPs) hire many juniors and offer broad exposure, at the cost of high volume and shift work.
 
+## Trade-offs
+
+- **Shift work and alert fatigue:** many SOCs run nights, weekends and bank holidays, and noisy queues can wear people down within a year or two.
+- **Limited control over fixes:** you spot problems and escalate them, but another team usually owns the underlying system.
+- **Pressure to move fast:** high ticket volume rewards quick triage, which leaves less time for deep investigation unless you push for it.
+
 ## Learn for free
 
 - [Splunk's free training courses](https://www.splunk.com/en_us/training/free-courses/overview.html): search and SIEM fundamentals
@@ -50,13 +56,22 @@ The most direct route is applying for tier 1 analyst roles with a foundation cer
 - [Boss of the SOC](https://github.com/splunk/botsv3) datasets in your own Splunk instance
 - Build a lab with an open-source SIEM such as [Wazuh](https://wazuh.com/) or [Security Onion](https://securityonionsolutions.com/), attack it with [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team), and write detections for what you see
 
+## Ready to apply
+
+You are ready to interview for an entry-level SOC role when you can:
+
+- Triage a suspicious login, phishing email or PowerShell alert step by step and explain why it is benign or malicious
+- Write basic SIEM queries (SPL, KQL or SQL) to pivot from an alert to related host, user and network events
+- Read Windows Event Logs, Linux auth logs and basic packet captures without guessing
+- Write concise, structured handover notes that let the next analyst pick up a case immediately
+
 ## Certifications
 
 Starting: Security+. Building: CySA+, Blue Team Level 1, Certified CyberDefender, Microsoft SC-200. Advanced: GIAC GCIA or GCDA. See [Certifications](../guides/certifications.md).
 
 ## Neighbouring paths
 
-[Incident response and forensics](incident-response-forensics.md) · [Vulnerability management](vulnerability-management.md) · [Threat intelligence](threat-intelligence.md) · [Security engineering](security-engineering-architecture.md) · [Cloud security](cloud-security.md) · [OT and industrial security](ot-industrial-security.md)
+[Detection engineering](detection-engineering.md) · [Incident response and forensics](incident-response-forensics.md) · [Vulnerability management](vulnerability-management.md) · [Threat intelligence](threat-intelligence.md) · [Security engineering](security-engineering-architecture.md) · [Cloud security](cloud-security.md) · [OT and industrial security](ot-industrial-security.md)
 
 ---
 

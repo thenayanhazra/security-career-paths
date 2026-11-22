@@ -14,8 +14,10 @@ REQUIRED_PATH_HEADINGS = [
     "Roles along the way",
     "Skills that matter",
     "How people get in",
+    "Trade-offs",
     "Learn for free",
     "Practise",
+    "Ready to apply",
     "Certifications",
     "Neighbouring paths",
 ]
@@ -94,6 +96,7 @@ NON_CERT_TOKENS = {
     "TCM",
     "US",
     "V8",
+    "YARA",
 }
 
 
@@ -268,14 +271,15 @@ def validate() -> list[str]:
         if "**Framework names:**" not in roles_body:
             errors.append(f"{rel_readme}: missing '**Framework names:**' in Roles along the way")
 
-        practise_body = section_map.get("Practise", "")
-        practise_bullets = [
-            line for line in practise_body.splitlines() if line.lstrip().startswith("- ")
-        ]
-        if len(practise_bullets) < 3:
-            errors.append(
-                f"{rel_readme}: Practise section has only {len(practise_bullets)} bullet(s); expected at least 3"
-            )
+        for section_name in ("Trade-offs", "Practise", "Ready to apply"):
+            body = section_map.get(section_name, "")
+            bullets = [
+                line for line in body.splitlines() if line.lstrip().startswith("- ")
+            ]
+            if len(bullets) < 3:
+                errors.append(
+                    f"{rel_readme}: {section_name} section has only {len(bullets)} bullet(s); expected at least 3"
+                )
 
         certs_body = section_map.get("Certifications", "")
         if "../guides/certifications.md" not in certs_body:
