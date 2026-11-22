@@ -57,7 +57,7 @@ Starting: Security+. Building: GIAC GCIH, CySA+. Advanced: GIAC GCFA, GCFE, GNFA
 
 ## Neighbouring paths
 
-[Security operations](security-operations.md) · [Threat intelligence](threat-intelligence.md) · [Offensive security](offensive-security.md) · [OT and industrial security](ot-industrial-security.md)
+[Security operations](security-operations.md) · [Threat intelligence](threat-intelligence.md) · [Offensive security](offensive-security.md) · [OT and industrial security](ot-industrial-security.md) · [Privacy](privacy.md)
 
 ---
 

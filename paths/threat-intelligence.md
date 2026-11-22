@@ -39,8 +39,9 @@ The path draws from unusual places: SOC analysts, journalists, political scienti
 ## Learn for free
 
 - [MITRE ATT&CK CTI training](https://attack.mitre.org/resources/learn-more-about-attack/training/cti/): using ATT&CK for intelligence work
+- [MITRE ATT&CK Groups](https://attack.mitre.org/groups/): structured profiles of documented threat actors and the techniques they use
 - [Psychology of Intelligence Analysis](https://www.cia.gov/resources/csi/books-monographs/psychology-of-intelligence-analysis-2/) by Richards Heuer: the classic text on analytical thinking and bias
-- [MISP](https://www.misp-project.org/): an open-source threat intelligence platform you can run yourself
+- [MISP](https://www.misp-project.org/) and [OpenCTI](https://github.com/opencti-platform/opencti): open-source threat intelligence platforms you can run yourself
 
 ## Practise
 
@@ -55,7 +56,7 @@ Starting: Security+. Building and advanced: GIAC GCTI. A public portfolio of ana
 
 ## Neighbouring paths
 
-[Security operations](security-operations.md) · [Incident response](incident-response-forensics.md) · [Offensive security](offensive-security.md)
+[Security operations](security-operations.md) · [Vulnerability management](vulnerability-management.md) · [Incident response](incident-response-forensics.md) · [Offensive security](offensive-security.md)
 
 ---
 

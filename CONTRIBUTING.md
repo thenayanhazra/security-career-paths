@@ -8,7 +8,7 @@ Thank you for helping keep this guide accurate and useful. The most valuable con
 
 ## How to contribute
 
-- **Quick suggestion:** open an issue using the [resource](https://github.com/thenayanhazra/security-career-paths/issues/new?template=resource.yml) or [correction](https://github.com/thenayanhazra/security-career-paths/issues/new?template=correction.yml) template.
+- **Quick suggestion:** open an issue using the [resource](https://github.com/thenayanhazra/security-career-paths/issues/new?template=resource.yml), [correction](https://github.com/thenayanhazra/security-career-paths/issues/new?template=correction.yml) or [new path / regional perspective](https://github.com/thenayanhazra/security-career-paths/issues/new?template=perspective.yml) template.
 - **Direct edit:** open a pull request. Keep each one to a single change or a closely related set, so it can be reviewed quickly.
 
 ## What gets added
@@ -37,7 +37,7 @@ Every path page follows the same order, so readers can compare paths side by sid
 9. **Certifications**, by level, linking to the certifications guide
 10. **Neighbouring paths**
 
-When you add a path, also update the README table and diagram, the [certifications guide](guides/certifications.md), and any relevant rows in [choosing a path](guides/choosing-a-path.md), [getting your first role](guides/first-role.md) and [moving between paths](guides/moving-between-paths.md).
+When you add a path, also update the README table and diagram, the [certifications guide](guides/certifications.md), the resource issue template, and any relevant rows in [choosing a path](guides/choosing-a-path.md), [getting your first role](guides/first-role.md) and [moving between paths](guides/moving-between-paths.md).
 
 ## Style
 
@@ -49,4 +49,4 @@ When you add a path, also update the README table and diagram, the [certificatio
 
 ## Checks and links
 
-Structure, local links, anchors and reciprocal neighbouring-path links are checked automatically on every pull request with `python3 scripts/validate.py`. External links are checked weekly and on every pull request. A few sites block automated checkers even though the page works; those are listed in [`.lycheeignore`](.lycheeignore). Add a site there only after confirming the page loads in a browser.
+Structure, cross-references (README diagram and table, choosing-a-path tables, certifications parity), local links, anchors, guide footers and reciprocal neighbouring-path links are checked automatically on every pull request with `python3 scripts/validate.py`. External links are checked weekly and on every pull request. A few sites block automated checkers even though the page works; those are listed in [`.lycheeignore`](.lycheeignore). Add a site there only after confirming the page loads in a browser.

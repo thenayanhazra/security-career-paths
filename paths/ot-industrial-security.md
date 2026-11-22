@@ -39,7 +39,9 @@ From two directions: control and automation engineers who learn security, and ne
 ## Learn for free
 
 - [CISA ICS training](https://www.cisa.gov/resources-tools/programs/ics-training-available-through-cisa): free online courses on industrial control system security
+- [NIST SP 800-82 Rev. 3](https://csrc.nist.gov/pubs/sp/800/82/r3/final): the standard public guide to operational technology security
 - [MITRE ATT&CK for ICS](https://attack.mitre.org/matrices/ics/)
+- [CISA ICS Advisories](https://www.cisa.gov/news-events/ics-advisories): current vulnerabilities affecting industrial control products
 - [SANS ICS resources](https://www.sans.org/industrial-control-systems-security/): free posters, papers and webcasts
 
 ## Practise

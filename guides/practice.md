@@ -38,6 +38,7 @@ Hands-on practice is what turns knowledge into skill, and what gives you somethi
 | Platform | Best for | Cost |
 |---|---|---|
 | [flaws.cloud](http://flaws.cloud/) and [flaws2.cloud](http://flaws2.cloud/) | Learning common AWS mistakes, from attacker and defender sides | Free |
+| [Pwned Labs](https://pwnedlabs.io/) | Realistic AWS, Azure and Google Cloud attack and defence labs | Free tier; paid subscription |
 | [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) | Deploying vulnerable AWS scenarios in your own account | Free; you pay for AWS usage |
 | [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) | Finding and fixing common Kubernetes and container misconfigurations locally | Free |
 | [Stratus Red Team](https://github.com/DataDog/stratus-red-team) | Detonating cloud attack techniques across AWS, Azure, Google Cloud, Kubernetes and Entra ID to test detections | Free; you pay for cloud usage |
@@ -49,6 +50,8 @@ Hands-on practice is what turns knowledge into skill, and what gives you somethi
 | [Gandalf](https://gandalf.lakera.ai/) | Prompt injection by trial and error, in levels | Free |
 | [PortSwigger: Web LLM attacks](https://portswigger.net/web-security/llm-attacks) | LLM vulnerabilities in web applications, with labs | Free |
 | [Damn Vulnerable LLM Agent](https://github.com/ReversecLabs/damn-vulnerable-llm-agent) | Attacking an intentionally vulnerable agent | Free |
+| [promptfoo](https://github.com/promptfoo/promptfoo) | Automated red teaming and regression evaluation for LLM prompts and agents | Free |
+| [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) | Building reproducible safety and security evaluations for models and agents (UK AI Security Institute) | Free |
 | [LLM Prompt Injection Fuzzer](https://github.com/thenayanhazra/llm-prompt-injection-fuzzer) | Measuring how often a model or system prompt can be injected; includes a simulated target that needs no API key | Free |
 | [MCP Adversarial Harness](https://github.com/thenayanhazra/mcp-adversarial-harness) | Testing MCP tool servers for tool poisoning and data exfiltration, with a bundled vulnerable server | Free |
 
@@ -62,6 +65,10 @@ Hands-on practice is what turns knowledge into skill, and what gives you somethi
 | [OpenPLC](https://github.com/Autonomy-Logic/openplc-runtime) and [ICS-pcap](https://github.com/automayt/ICS-pcap) | [OT and industrial security](../paths/ot-industrial-security.md) | Simulating a PLC locally and inspecting industrial protocol captures | Free |
 | [pwn.college](https://pwn.college/) | [Vulnerability research](../paths/vulnerability-research.md) | Structured binary exploitation and low-level systems labs | Free |
 | [CNIL PIA](https://github.com/LINCnil/pia) | [Privacy](../paths/privacy.md) | Running a structured data protection impact assessment | Free |
+
+## Non-lab practice
+
+Not every path is learned through capture-the-flag labs. For [governance, risk and compliance](../paths/governance-risk-compliance.md), [AI governance and assurance](../paths/ai-governance-assurance.md), [security engineering and architecture](../paths/security-engineering-architecture.md) and [security leadership](../paths/security-leadership.md), the strongest practice is producing realistic artefacts—policies, risk assessments, framework cross-mappings, architecture reviews and one-page executive briefings—and asking experienced practitioners to critique them. Each path page lists concrete exercises to build a portfolio.
 
 ## Making practice count
 

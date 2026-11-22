@@ -44,6 +44,7 @@ From application security, cloud security or ML engineering, usually by taking o
 ## Learn for free
 
 - [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) (2026 edition) and the [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
+- [OWASP AI Exchange](https://owaspai.org/): an open-source technical reference on AI threats and controls aligned with international standards
 - [MITRE ATLAS](https://atlas.mitre.org/): adversary techniques against AI systems, with real case studies
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) and its [Generative AI Profile (NIST AI 600-1)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
 - [MCP security best practices](https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices): attacks and mitigations for agent tool servers
@@ -52,11 +53,10 @@ From application security, cloud security or ML engineering, usually by taking o
 
 ## Practise
 
-- [PortSwigger: Web LLM attacks](https://portswigger.net/web-security/llm-attacks) labs
+- [PortSwigger: Web LLM attacks](https://portswigger.net/web-security/llm-attacks) labs and [Damn Vulnerable LLM Agent](https://github.com/ReversecLabs/damn-vulnerable-llm-agent)
 - Build a small agent with one tool, attack it with indirect prompt injection, then redesign it so the attack no longer matters
-- Scan agent instruction files and MCP configurations with [agentlint](https://github.com/thenayanhazra/agentlint)
-- Test an MCP server with [MCP Adversarial Harness](https://github.com/thenayanhazra/mcp-adversarial-harness)
-- Measure a system prompt's resistance with [LLM Prompt Injection Fuzzer](https://github.com/thenayanhazra/llm-prompt-injection-fuzzer) or open-source tools such as [promptfoo](https://github.com/promptfoo/promptfoo)
+- Build an automated security evaluation suite in CI using [promptfoo](https://github.com/promptfoo/promptfoo) or the UK AI Security Institute's [Inspect](https://github.com/UKGovernmentBEIS/inspect_ai) framework (or [LLM Prompt Injection Fuzzer](https://github.com/thenayanhazra/llm-prompt-injection-fuzzer))
+- Audit agent instruction files and MCP tool servers using [agentlint](https://github.com/thenayanhazra/agentlint) and [MCP Adversarial Harness](https://github.com/thenayanhazra/mcp-adversarial-harness)
 
 ## Certifications
 
@@ -64,7 +64,7 @@ Building: CompTIA SecAI+, CAISP. Advanced: GIAC GAIPS, GASAE. These are all new;
 
 ## Neighbouring paths
 
-[Application security](application-security.md) · [Cloud security](cloud-security.md) · [AI red teaming](ai-red-teaming.md) · [AI governance and assurance](ai-governance-assurance.md)
+[Application security](application-security.md) · [Cloud security](cloud-security.md) · [Identity and access management](identity-access-management.md) · [AI red teaming](ai-red-teaming.md) · [AI governance and assurance](ai-governance-assurance.md)
 
 ---
 

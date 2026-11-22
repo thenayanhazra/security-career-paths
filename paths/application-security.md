@@ -41,8 +41,10 @@ Software developers make the move most often, and are well placed to: they under
 ## Learn for free
 
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+- [OpenSSF Secure Software Development Fundamentals](https://openssf.org/training/courses/): free online courses covering secure design, implementation and verification
 - [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/): what "secure" means, requirement by requirement
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/): concise guidance on specific problems
+- [OWASP SAMM](https://owaspsamm.org/): a maturity model for building and measuring an application security programme
 - [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) and the [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
 - [SLSA](https://slsa.dev/): a framework for software supply chain integrity
 
@@ -51,6 +53,7 @@ Software developers make the move most often, and are well placed to: they under
 - [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) and [crAPI](https://github.com/OWASP/crAPI): find the flaws, then fix them in the source
 - Add security scanning to a CI pipeline for one of your own projects, and tune out the noise
 - Threat model an open-source application and write it up
+- Review an authentication or API module in an open-source repository against [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/), and write clear, developer-friendly fix guidance for what you find
 
 ## Certifications
 
@@ -58,7 +61,7 @@ Starting: Security+. Building: Burp Suite Certified Practitioner, GIAC GWEB, Cer
 
 ## Neighbouring paths
 
-[Offensive security](offensive-security.md) · [Vulnerability research](vulnerability-research.md) · [Cloud security](cloud-security.md) · [AI security engineering](ai-security-engineering.md) · [Security engineering](security-engineering-architecture.md)
+[Offensive security](offensive-security.md) · [Vulnerability research](vulnerability-research.md) · [Vulnerability management](vulnerability-management.md) · [Cloud security](cloud-security.md) · [AI security engineering](ai-security-engineering.md) · [Security engineering](security-engineering-architecture.md) · [Privacy](privacy.md)
 
 ---
 
