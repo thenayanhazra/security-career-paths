@@ -96,9 +96,13 @@ Certifications change often: new versions, new names, programmes that open and c
 
 Links are checked automatically every week, so broken ones get caught and fixed.
 
-## Contributing
+## Contributing and community
 
-Suggestions are welcome, especially resources you found genuinely useful when starting out, and corrections when something has gone out of date. [Suggest a resource](https://github.com/thenayanhazra/security-career-paths/issues/new?template=resource.yml), [report a correction](https://github.com/thenayanhazra/security-career-paths/issues/new?template=correction.yml), or read [CONTRIBUTING.md](CONTRIBUTING.md) for how pages are structured and what makes a good addition.
+Suggestions are welcome, especially resources you found genuinely useful when starting out, regional perspectives, and corrections when something has gone out of date.
+
+- **Ask or share:** join [GitHub Discussions](https://github.com/thenayanhazra/security-career-paths/discussions) for path advice, portfolio reviews and regional notes.
+- **Suggest or fix:** [suggest a resource](https://github.com/thenayanhazra/security-career-paths/issues/new?template=resource.yml), [report a correction](https://github.com/thenayanhazra/security-career-paths/issues/new?template=correction.yml), or [propose a new path or regional perspective](https://github.com/thenayanhazra/security-career-paths/issues/new?template=perspective.yml).
+- **Contribute directly:** read [CONTRIBUTING.md](CONTRIBUTING.md), our [Code of Conduct](CODE_OF_CONDUCT.md) and the [Changelog](CHANGELOG.md).
 
 ## License
 
