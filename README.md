@@ -2,9 +2,12 @@
 
 [![Links](https://github.com/thenayanhazra/security-career-paths/actions/workflows/links.yml/badge.svg)](https://github.com/thenayanhazra/security-career-paths/actions/workflows/links.yml)
 [![Validate](https://github.com/thenayanhazra/security-career-paths/actions/workflows/validate.yml/badge.svg)](https://github.com/thenayanhazra/security-career-paths/actions/workflows/validate.yml)
+[![Pages](https://github.com/thenayanhazra/security-career-paths/actions/workflows/pages.yml/badge.svg)](https://github.com/thenayanhazra/security-career-paths/actions/workflows/pages.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 
 **A map of careers in information security, cybersecurity and AI security: what each path involves, how people get in, how they progress, and where to learn, mostly for free.**
+
+**Web edition:** [Browse the searchable site](https://thenayanhazra.github.io/security-career-paths/) · [Interactive Path Finder](https://thenayanhazra.github.io/security-career-paths/finder.html) · [Certifications Explorer](https://thenayanhazra.github.io/security-career-paths/certifications.html) · [Career Transition Map](https://thenayanhazra.github.io/security-career-paths/map.html) · [JSON data](https://thenayanhazra.github.io/security-career-paths/data/paths.json)
 
 Security is not one job. A detection engineer, a penetration tester, a privacy auditor and an AI red-teamer share a field and little else. This guide lays out the main paths side by side so you can choose deliberately, then gives each one a route from first steps to senior work.
 
