@@ -17,3 +17,5 @@ jobs:
           python-version: "3.12"
       - name: Validate structure and cross-links
         run: python3 scripts/validate.py
+      - name: Build and verify static site
+        run: python3 scripts/build_site.py --out dist --check
