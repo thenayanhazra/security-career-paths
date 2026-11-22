@@ -3,5 +3,6 @@
 ^https://www\.iso\.org/
 ^https://fidoalliance\.org/
 ^https://www\.splunk\.com/
+^https://wiki\.wireshark\.org/
 # Issue forms redirect to sign-in for anonymous requests
 ^https://github\.com/thenayanhazra/security-career-paths/issues/new
