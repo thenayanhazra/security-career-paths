@@ -464,6 +464,14 @@ def render_shell(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="site-root" content="{site_root}">
   <meta name="description" content="{html.escape(description, quote=True)}">
+  <meta property="og:title" content="{html.escape(title, quote=True)} — Security Career Paths">
+  <meta property="og:description" content="{html.escape(description, quote=True)}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://thenayanhazra.github.io/security-career-paths/assets/og-card.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{html.escape(title, quote=True)} — Security Career Paths">
+  <meta name="twitter:description" content="{html.escape(description, quote=True)}">
+  <meta name="twitter:image" content="https://thenayanhazra.github.io/security-career-paths/assets/og-card.jpg">
   <title>{html.escape(title)} — Security Career Paths</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

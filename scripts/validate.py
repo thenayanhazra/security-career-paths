@@ -318,7 +318,8 @@ def validate() -> list[str]:
                 )
 
     # 4. All local relative links and anchors across Markdown files resolve
-    md_files = [readme_path, ROOT / "CONTRIBUTING.md", *guide_files, *path_files]
+    extra_docs = [p for p in (ROOT / "CODE_OF_CONDUCT.md", ROOT / "CHANGELOG.md") if p.exists()]
+    md_files = [readme_path, ROOT / "CONTRIBUTING.md", *extra_docs, *guide_files, *path_files]
     slug_cache: dict[Path, set[str]] = {}
     for md in md_files:
         text = md.read_text(encoding="utf-8")
@@ -341,8 +342,67 @@ def validate() -> list[str]:
     return errors
 
 
+MONTH_INDEX = {
+    "january": 1,
+    "february": 2,
+    "march": 3,
+    "april": 4,
+    "may": 5,
+    "june": 6,
+    "july": 7,
+    "august": 8,
+    "september": 9,
+    "october": 10,
+    "november": 11,
+    "december": 12,
+}
+
+
+def check_staleness(max_age_months: int) -> list[str]:
+    """Return errors for any path or guide whose *Last reviewed* date exceeds max_age_months."""
+    from datetime import date
+
+    today = date.today()
+    today_months = today.year * 12 + today.month
+    stale: list[str] = []
+    files = sorted((ROOT / "guides").glob("*.md")) + sorted((ROOT / "paths").glob("*.md"))
+
+    for md in files:
+        text = md.read_text(encoding="utf-8")
+        m = re.search(r"^\*Last reviewed:\s*([A-Za-z]+)\s+(\d{4})\b", text, flags=re.M)
+        rel = md.relative_to(ROOT)
+        if not m:
+            stale.append(f"{rel}: could not parse '*Last reviewed: Month YYYY'")
+            continue
+        month_num = MONTH_INDEX.get(m.group(1).lower())
+        year_num = int(m.group(2))
+        if not month_num:
+            stale.append(f"{rel}: unrecognised review month '{m.group(1)}'")
+            continue
+        age_months = today_months - (year_num * 12 + month_num)
+        if age_months > max_age_months:
+            stale.append(
+                f"{rel}: last reviewed {m.group(1)} {year_num} ({age_months} months ago, limit {max_age_months})"
+            )
+    return stale
+
+
 def main() -> int:
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Validate security-career-paths structure and links.")
+    parser.add_argument(
+        "--max-age-months",
+        type=int,
+        default=None,
+        help="Fail if any guide or path was last reviewed more than N months ago",
+    )
+    args = parser.parse_args()
+
     errors = validate()
+    if args.max_age_months is not None:
+        errors.extend(check_staleness(args.max_age_months))
+
     if errors:
         for err in errors:
             print(f"ERROR: {err}", file=sys.stderr)
