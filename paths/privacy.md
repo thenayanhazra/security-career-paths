@@ -71,7 +71,7 @@ Starting: CIPP/E or CIPP/US. Building: CIPM, CIPT. Advanced: CDPSE, FIP. See [Ce
 
 ## Neighbouring paths
 
-[Governance, risk and compliance](governance-risk-compliance.md) · [AI governance and assurance](ai-governance-assurance.md) · [Application security](application-security.md) · [Incident response and forensics](incident-response-forensics.md)
+[Governance, risk and compliance](governance-risk-compliance.md) · [Security awareness, culture and human risk management](security-awareness-culture.md) · [AI governance and assurance](ai-governance-assurance.md) · [Application security](application-security.md) · [Incident response and forensics](incident-response-forensics.md)
 
 ---
 

@@ -76,7 +76,7 @@ Starting and building: build depth in your original path first; leadership certi
 
 ## Neighbouring paths
 
-[Governance, risk and compliance](governance-risk-compliance.md) · [Security engineering and architecture](security-engineering-architecture.md) · [AI governance and assurance](ai-governance-assurance.md)
+[Governance, risk and compliance](governance-risk-compliance.md) · [Security awareness, culture and human risk management](security-awareness-culture.md) · [Security engineering and architecture](security-engineering-architecture.md) · [AI governance and assurance](ai-governance-assurance.md)
 
 ---
 

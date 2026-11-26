@@ -18,6 +18,7 @@ Roles that lead naturally into security:
 | Cloud or DevOps engineering | [Cloud security](../paths/cloud-security.md), [security engineering](../paths/security-engineering-architecture.md) |
 | Audit, compliance, legal | [GRC](../paths/governance-risk-compliance.md), [privacy](../paths/privacy.md), [AI governance](../paths/ai-governance-assurance.md) |
 | Data science or ML engineering | [AI security engineering](../paths/ai-security-engineering.md), [AI red teaming](../paths/ai-red-teaming.md) |
+| Education, learning design or communications | [Security awareness, culture and human risk management](../paths/security-awareness-culture.md) |
 
 See [Where security teams sit](employers-and-markets.md) for how hiring differs across MSSPs, consultancies, in-house teams and regions.
 

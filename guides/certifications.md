@@ -38,6 +38,7 @@ Levels below are relative. "Starting" means achievable without security experien
 | [Identity and access management](../paths/identity-access-management.md) | Microsoft SC-900 | Microsoft SC-300; Okta certifications | CIDPRO (IDPro); CISSP |
 | [OT and industrial security](../paths/ot-industrial-security.md) | Security+ | GIAC GICSP; ISA/IEC 62443 certificates (ISA) | GIAC GRID |
 | [Governance, risk and compliance](../paths/governance-risk-compliance.md) | Security+ or CC | ISO/IEC 27001 Lead Implementer or Lead Auditor; CGRC (ISC2) | CISA, CRISC, CISM (ISACA); CISSP |
+| [Security awareness, culture and human risk management](../paths/security-awareness-culture.md) | No standard certification path | — | — |
 | [Privacy](../paths/privacy.md) | CIPP/E or CIPP/US (IAPP) | CIPM, CIPT (IAPP) | CDPSE (ISACA); FIP (IAPP) |
 | [AI security engineering](../paths/ai-security-engineering.md) | — | SecAI+ (CompTIA); CAISP (Practical DevSecOps) | GIAC GAIPS, GASAE |
 | [AI red teaming](../paths/ai-red-teaming.md) | — | SecAI+; an offensive security certification such as OSCP | GIAC GASAE. The field is new; a portfolio of findings counts most. |
