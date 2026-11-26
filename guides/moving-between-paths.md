@@ -26,6 +26,8 @@ Few careers stay on one path. Most people change direction at least once, and th
 | [Application](../paths/application-security.md) or [cloud security](../paths/cloud-security.md) | [AI security engineering](../paths/ai-security-engineering.md) | Secure design, threat modelling | Model and agent behaviour, prompt injection, AI supply chain |
 | [GRC](../paths/governance-risk-compliance.md) | [AI governance](../paths/ai-governance-assurance.md) | Frameworks, control design, audit | AI-specific regulation and standards, enough technical depth to question engineers |
 | Audit or [GRC](../paths/governance-risk-compliance.md) | [Privacy](../paths/privacy.md) | Control testing, regulation | Data protection law, privacy engineering basics |
+| Education, learning design or communications | [Security awareness, culture and human risk management](../paths/security-awareness-culture.md) | Facilitation, audience research, clear writing | Security fundamentals, programme evaluation, privacy-conscious measurement |
+| [Governance, risk and compliance](../paths/governance-risk-compliance.md) | [Security awareness, culture and human risk management](../paths/security-awareness-culture.md) | Policy, risk and control context | Instructional design, communication and outcome evaluation |
 | Any path | [Leadership](../paths/security-leadership.md) | Credibility from doing the work | Managing people, budgets, risk communication |
 
 ## How to make the move

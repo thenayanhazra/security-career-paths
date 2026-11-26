@@ -15,6 +15,7 @@ Most people do not choose a security career so much as drift into the first one 
 | Spotting the signal in noise, staying calm under pressure | [Security operations](../paths/security-operations.md), [detection engineering](../paths/detection-engineering.md), [incident response](../paths/incident-response-forensics.md), [threat intelligence](../paths/threat-intelligence.md) |
 | Bringing order to a large, messy problem and seeing it through | [Vulnerability management](../paths/vulnerability-management.md), [IAM](../paths/identity-access-management.md), [GRC](../paths/governance-risk-compliance.md) |
 | Weighing trade-offs, writing clearly, persuading people | [Governance, risk and compliance](../paths/governance-risk-compliance.md); [privacy](../paths/privacy.md); [AI governance](../paths/ai-governance-assurance.md); [leadership](../paths/security-leadership.md) |
+| Teaching, communicating clearly and designing useful learning | [Security awareness, culture and human risk management](../paths/security-awareness-culture.md) |
 
 **2. How do you feel about on-call and interruptions?**
 
@@ -27,7 +28,7 @@ Security operations and incident response run on shifts and emergencies. Some pe
 | Daily, seriously | [Application security](../paths/application-security.md), [vulnerability research](../paths/vulnerability-research.md), [detection engineering](../paths/detection-engineering.md), [AI security engineering](../paths/ai-security-engineering.md) |
 | Regularly, for automation | [Cloud security](../paths/cloud-security.md), [security engineering](../paths/security-engineering-architecture.md), [offensive security](../paths/offensive-security.md), [AI red teaming](../paths/ai-red-teaming.md), [threat intelligence](../paths/threat-intelligence.md) |
 | Occasionally, scripts and queries | [Security operations](../paths/security-operations.md), [vulnerability management](../paths/vulnerability-management.md), [IAM](../paths/identity-access-management.md), [incident response](../paths/incident-response-forensics.md), [OT and industrial security](../paths/ot-industrial-security.md) |
-| Rarely | [GRC](../paths/governance-risk-compliance.md), [privacy](../paths/privacy.md), [AI governance](../paths/ai-governance-assurance.md), [leadership](../paths/security-leadership.md) |
+| Rarely | [GRC](../paths/governance-risk-compliance.md), [security awareness](../paths/security-awareness-culture.md), [privacy](../paths/privacy.md), [AI governance](../paths/ai-governance-assurance.md), [leadership](../paths/security-leadership.md) |
 
 Every path benefits from being able to read code and write a short script. Not every path needs you to be a software engineer.
 

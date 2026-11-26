@@ -51,6 +51,7 @@ flowchart LR
   B --> IAM["Identity and access management"]
   B --> OT["OT and industrial security"]
   G --> GRC["Governance, risk and compliance"]
+  G --> SAC["Security awareness, culture and human risk management"]
   G --> PR["Privacy"]
   AI --> AISE["AI security engineering"]
   AI --> AIRT["AI red teaming"]
@@ -75,6 +76,7 @@ The AI security paths draw on the others: AI security engineering builds on appl
 | Build | [Identity and access management](paths/identity-access-management.md) | Decide who and what can access what, and prove it | Beginner-friendly via IT administration |
 | Build | [OT and industrial security](paths/ot-industrial-security.md) | Protect systems that move physical things | Often from engineering or operations |
 | Govern | [Governance, risk and compliance](paths/governance-risk-compliance.md) | Turn standards and risk into decisions and evidence | Beginner-friendly; strong route for career changers |
+| Govern | [Security awareness, culture and human risk management](paths/security-awareness-culture.md) | Help people make safer decisions through practical, role-specific security learning | Often from learning design, communications, IT or security |
 | Govern | [Privacy](paths/privacy.md) | Make sure personal data is handled lawfully and fairly | Often from legal, compliance or GRC |
 | AI security | [AI security engineering](paths/ai-security-engineering.md) | Secure systems built on models and agents | Usually from application, cloud or ML engineering |
 | AI security | [AI red teaming](paths/ai-red-teaming.md) | Find ways models and agents can be misused | Usually from offensive security or ML |
